@@ -1,0 +1,127 @@
+#section_5 {
+    height: 100vh;
+    /* background-color: transparent; */
+    background-color: var(--black);
+    box-shadow: 0 0 15px var(--black);
+}
+
+#div_centre_sec5 {
+    width: 86vw;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: transparent;
+    /* box-shadow: 0 0 15px var(--black); */
+    
+}
+
+#sec5_gauche {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    padding-left: 50px;
+}
+
+#div_h1_sec5 {
+    grid-row: 1/2;
+}
+
+#div_h1_sec5 h1 {
+    font-size: 45px;
+    font-family: "Roboto";
+    color: var(--orange);
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 1.2;
+    margin-top: 4vh;
+    grid-row: 1/2;
+}
+
+#div_h1_sec5 h1::before {
+    color: var(--orange);
+    border-width: 2px;
+    box-shadow: 0 0 15px var(--orange);
+}
+
+#sec5_gauche p {
+    font-size: 4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--white);
+    line-height: 1.2;
+    text-align: left;
+    align-self: center;
+    grid-row: 2/3;
+}
+
+#sec5_droite {
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+
+#div_img_sec5 img {
+    width: 214px;
+}
+
+#sec5_droite p {
+    font-size: 6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--orange);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+@media screen and (width <= 1280px) {
+
+    #section_5 {
+        height: auto;
+    }
+
+
+    #div_centre_sec5 {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0 15px var(--black);
+    }
+
+    #sec5_gauche {
+        padding-right: 50px;
+    }
+
+    #sec5_gauche p {
+        text-align: center;
+        font-size: 3em;
+    }
+
+    #sec5_droite {
+        margin-bottom: 50px;
+    }
+
+    #sec5_droite p {
+        font-size: 5em;
+    }
+
+}
+
+@media screen and (width <= 800px) {
+    #div_h1_sec5 h1{
+        font-size: 30px;
+    }
+
+    #div_h1_sec5 h1::before {
+        border-radius: 50%;
+        padding: 5px 15px;
+    }
+
+    #sec5_gauche p {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    #sec5_droite p {
+        font-size: 4em;
+    }
+}

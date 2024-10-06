@@ -1,0 +1,134 @@
+#section_2 {
+    /* background-color: var(--whiteBgOdd); */
+    min-height: 100vh;
+    width: 100vw;
+    background: transparent;
+    /* box-shadow: 0 0 15px var(--white);  */
+}
+
+#div_centre_sec2 {
+    width: 86vw;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+}
+
+#div_h1_sec2 {
+    grid-row: 1/2;
+    margin-top: 20px;
+}
+
+#div_pro_sec2 {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.div_projets_sec2_lat {
+    border-width: 1px;
+    border-color: var(--whiteBgOdd);
+    border-style: solid;
+    border-radius: 20px;
+    background-color: var(--orange);
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+#sec2_projet_gauche {
+    grid-column: 1/2;
+    align-self: center;
+}
+
+#sec2_projet_centre {
+    border-width: 2px;
+    border-color: var(--whiteBgOdd);
+    border-style: solid;
+    border-radius: 20px;
+    background-color: var(--orange);;
+    width: 100%;
+    aspect-ratio: 1/1;
+    grid-column: 2/3;
+    align-self: center;
+}
+
+#sec2_projet_droite {
+    grid-column: 3/4;
+    align-self: center;
+}
+
+#div_h1_sec2 h1 {
+    font-size: 45px;
+    font-family: "Roboto";
+    color: var(--orange);;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 1.2;
+    align-content: center;
+    text-align: end;
+}
+
+#div_h1_sec2 h1::before {
+    color: var(--orange);;
+    background-color: transparent;
+    box-shadow: 0 0 15px var(--orange);;
+    border-width: 2px;
+}
+
+@media  screen and ( width <= 1280px) {
+    #div_h1_sec2 {
+        margin-top: 50px;
+    }
+
+    #section_2 {
+        height: auto;
+    }
+
+    #div_centre_sec2 {
+        height: auto;
+        gap: 10px;
+    }
+
+    #div_pro_sec2 {
+        display: block;
+        align-content: center;
+    }
+
+    .div_projets_sec2_lat {
+        display: none;
+    }
+
+    #sec2_projet_centre {
+        width: 100%;
+        margin-bottom: 50px; 
+    }
+}
+
+@media screen and (width <= 800px) {
+
+    #div_h1_sec2 {
+        margin-top: 20px;
+    }
+    #div_h1_sec2 h1{
+        font-size: 30px;
+        grid-row: 1/2;
+    }
+
+    #div_h1_sec2 h1::before {
+        border-radius: 50%;
+        padding: 5px 15px;
+    }
+
+    .div_projets_sec2_lat {
+        display: block;
+        width: 100%;
+    }
+
+    #sec2_projet_centre {
+        margin-bottom: 0;  
+    }
+
+    #sec2_projet_droite {
+        margin-bottom: 50px;  
+    }
+}
