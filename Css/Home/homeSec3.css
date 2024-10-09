@@ -1,8 +1,73 @@
+
+:root {
+    /* --white: #fff;
+    --black: #000;
+    --blackfade: #000000a2;
+    --whiteBgOdd: rgb(240, 245, 218);
+    --cyan: #0ff;
+    --orange: #0ff;
+    /* --orange: #F5B91D; 
+    --shadowblue: #3B6CF5; */
+
+    /* Backgrounds */
+    --bg-cyan: #0B161A;
+    --bg-cyan-soft: #101B20;
+
+    /* Secondary text, links */
+    --links-text-cyan: #4CCCE6;
+
+    /* High-contrast text */
+    --hight-ctr-txt-cyan: #B6ECF7;
+
+    /* Borders and separators */
+    --cyan-border-h: #045468;
+    --cyan-border-m: #12677E;
+
+    /* Borders, focus rings, disabled text */
+    --cyan-border-s: #11809C;
+
+    /* Solid backgrounds, disabled text */
+    --cyan-solid-h: #00A2C7;
+    --cyan-solid-s: #23AFD0;
+
+    /* Interactive components */
+    --cyan-interactiveComp-h: #082C36;
+    --cyan-interactiveComp-m: #003848;
+    --cyan-interactiveComp-s: #004558;
+
+
+    /* Backgrounds */
+    --bg-amber: #16120C;
+    --bg-amber-soft: #1D180F;
+
+    /* Secondary text, links */
+    --links-text-amber: #FFCA16;
+
+    /* High-contrast text */
+    --hight-ctr-txt-amber: #FFE7B3;
+
+    /* Borders and separators */
+    --amber-border-h: #5C3D05;
+    --amber-border-m: #714F19;
+
+    /* Borders, focus rings, disabled text */
+    --amber-border-s: #8F6424;
+
+    /* Solid backgrounds, disabled text */
+    --amber-solid-h: #FFC53D;
+    --amber-solid-s: #FFD60A;
+
+    /* Interactive components */
+    --amber-interactiveComp-h: #302008;
+    --amber-interactiveComp-m: #3F2700;
+    --amber-interactiveComp-s: #4D3000;
+}
+
 #section_3 {
     height: auto;
     /* background-color: transparent; */
-    background: var(--black);
-    box-shadow: 0 0 15px var(--black);
+    background: var(--bg-cyan);
+    box-shadow: 0 0 15px var(--cyan-interactiveComp-s);
 }
 
 #div_centre_sec3 {
@@ -32,17 +97,16 @@
 #div_h1_sec3 h1 {
     font-size: 45px;
     font-family: "Roboto";
-    color: var(--orange);;
+    color: var(--links-text-cyan);;
     font-weight: bold;
-    text-decoration: underline;
     line-height: 1.2;
 }
 
 
 #div_h1_sec3 h1::before {
-    background-color: var(--white);
-    color: var(--orange);;
-    box-shadow: 0 0 15px var(--orange);
+    background-color: var(--links-text-cyan);
+    color: var(--bg-amber-soft);;
+    box-shadow: 0 0 15px var(--cyan-interactiveComp-s);
 }
 
 #div_process {
@@ -53,7 +117,7 @@
 
 #prohaut {
     border-width: 2px;
-    border-color: var(--whiteBgOdd);
+    border-color: var(--cyan-border-h);
     border-style: solid;
     background: url('../../imgs/process_design.svg') center no-repeat;
     background-size: cover;
@@ -64,7 +128,7 @@
 
 #procentre {
     border-width: 2px;
-    border-color: var(--whiteBgOdd);
+    border-color: var(--cyan-border-h);
     border-style: solid;
     background: url('../../imgs/process_code.jpg') 80% center no-repeat;
     background-size: cover;
@@ -77,9 +141,9 @@
 
 #probas {
     border-width: 2px;
-    border-color: var(--whiteBgOdd);
+    border-color: var(--cyan-border-h);
     border-style: solid;
-    background-color: var(--whiteBgOdd);
+    background-color: var(--cyan-solid-h);
     width: 35%;
     aspect-ratio: 1/1;
     float: left;
@@ -103,23 +167,23 @@
 #sec3_droite p {
     font-size: 35px;
     font-family: "Verdana";
-    color: var(--white);
+    color: var(--hight-ctr-txt-cyan);
     line-height: 1.2;
     text-align: center;
 }
 
 #btn_plus_sec3 {
     border-width: 4px;
-    border-color: var(--orange);
+    border-color: var(--cyan-border-s);
     border-style: solid;
     border-radius: 20px;
     padding: 7px 30px;
     font-size: 1.7em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: var(--orange);
+    color: var(--links-text-cyan);
     font-weight: bold;
     line-height: 1.2;
-    box-shadow: 0 0 15px var(--orange);
+    box-shadow: 0 0 15px var(--cyan-interactiveComp-s);
     background-color: transparent;
     transition: 0.3s ease;
     text-decoration: none;
@@ -128,13 +192,13 @@
 }
 
 #btn_plus_sec3:hover {
-    background-color: var(--orange);
-    color: var(--white);
+    background-color: var(--links-text-cyan);
+    color: var(--bg-amber-soft);
     cursor: pointer;
 }
 
 #btn_plus_sec3:active {
-    box-shadow: 0px 0px 7px 0px var(--orange);
+    box-shadow: 0px 0px 7px 0px var(--cyan-interactiveComp-s);
     transform: scale(0.95);
 }
 

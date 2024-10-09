@@ -5,19 +5,73 @@
 }
 
 :root {
-    --white: #fff;
+    /* --white: #fff;
     --black: #000;
     --blackfade: #000000a2;
     --whiteBgOdd: rgb(240, 245, 218);
     /* --cyan: #0ff; */
     --orange: #0ff;
     --cyan: #F5B91D;
-    /* --orange: #F5B91D; */
-    --shadowblue: #3B6CF5;
+    /* --orange: #F5B91D; 
+    --shadowblue: #3B6CF5; */
+
+    /* Backgrounds */
+    --bg-cyan: #0B161A;
+    --bg-cyan-soft: #101B20;
+
+    /* Secondary text, links */
+    --links-text-cyan: #4CCCE6;
+
+    /* High-contrast text */
+    --hight-ctr-txt-cyan: #B6ECF7;
+
+    /* Borders and separators */
+    --cyan-border-h: #045468;
+    --cyan-border-m: #12677E;
+
+    /* Borders, focus rings, disabled text */
+    --cyan-border-s: #11809C;
+
+    /* Solid backgrounds, disabled text */
+    --cyan-solid-h: #00A2C7;
+    --cyan-solid-s: #23AFD0;
+
+    /* Interactive components */
+    --cyan-interactiveComp-h: #082C36;
+    --cyan-interactiveComp-m: #003848;
+    --cyan-interactiveComp-s: #004558;
+
+
+    /* Backgrounds */
+    --bg-amber: #16120C;
+    --bg-amber-soft: #1D180F;
+
+    /* Secondary text, links */
+    --links-text-amber: #FFCA16;
+
+    /* High-contrast text */
+    --hight-ctr-txt-amber: #FFE7B3;
+
+    /* Borders and separators */
+    --amber-border-h: #5C3D05;
+    --amber-border-m: #714F19;
+
+    /* Borders, focus rings, disabled text */
+    --amber-border-s: #8F6424;
+
+    /* Solid backgrounds, disabled text */
+    --amber-solid-h: #FFC53D;
+    --amber-solid-s: #FFD60A;
+
+    /* Interactive components */
+    --amber-interactiveComp-h: #302008;
+    --amber-interactiveComp-m: #3F2700;
+    --amber-interactiveComp-s: #4D3000;
+
 }
 
 body {
-    background: var(--black);
+    background: var(--bg-amber);
 }
 
 nav {
@@ -65,9 +119,9 @@ nav ul li {
     position: absolute;
     min-width: 500px;
     padding: 10px;
-    background-color: var(--blackfade);
+    background-color: var(--bg-amber-soft);
     border-radius: 10px;
-    box-shadow: 0px 10px 15px 0px var(--black);
+    box-shadow: 0px 10px 15px 0px var(--amber-interactiveComp-s);
     z-index: 3;
     left: 50%;
     transform: translateX(-50%);
@@ -75,7 +129,7 @@ nav ul li {
 }
 
 .dropdown-services-content a {
-    color: var(--white);
+    color: var(--links-text-amber);
     text-align: left;
     font-weight: bold;
     font-size: 1.3em;
@@ -89,8 +143,8 @@ nav ul li {
 }
 
 .dropdown-services a:not(.dropdown-services>a):hover {
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--links-text-amber);
+    color: var(--bg-amber-soft);
 }
 
 .dropdown-services-content a::after {
@@ -105,8 +159,8 @@ nav ul li {
 }
 
 .dropdown-services-content a:active {
-    background-color: var(--cyan);
-    color: var(--black);
+    /* background-color: var(--cyan); */
+    color: var(--amber-interactiveComp-s);
 }
 
 .dropdown {
@@ -118,9 +172,9 @@ nav ul li {
     position: absolute;
     min-width: 250px;
     padding: 10px;
-    background-color: var(--blackfade);
+    background-color: var(--bg-amber-soft);
     border-radius: 10px;
-    box-shadow: 0px 10px 15px 0px var(--black);
+    box-shadow: 0px 10px 15px 0px var(--amber-interactiveComp-s);
     z-index: 3;
     backdrop-filter: blur(10px);
 }
@@ -133,7 +187,7 @@ nav ul li a, .dropdown-content a {
     font-size: 1.3em;
     font-weight: bold;
     text-transform: capitalize;
-    color: var(--white);
+    color: var(--links-text-amber);
     text-align: center;
     transition: 0.3s ease-in-out;
     line-height: normal;
@@ -141,8 +195,8 @@ nav ul li a, .dropdown-content a {
 }
 
 .actif {
-    color: var(--cyan);
-    text-shadow: -1px 0 var(--black), 0 1px var(--black), 1px 0 var(--black), 0 -1px var(--black);
+    color: var(--amber-solid-h);
+    text-shadow: -1px 0 var(--amber-border-h), 0 1px var(--amber-border-h), 1px 0 var(--amber-border-h), 0 -1px var(--amber-border-h);
 }
 
 .actif::after {
@@ -158,13 +212,13 @@ nav ul li a, .dropdown-content a {
 }
 
 nav ul li a:hover {
-    color: var(--cyan);
+    color: var(--amber-solid-h);
 }
 
 nav ul li a::after{
     content: "";
     position: absolute;
-    background-color: var(--cyan);
+    background-color: var(--amber-solid-h);
     bottom: 0;
     left: 0;
     width: 0;
@@ -178,11 +232,11 @@ nav ul li a:hover::after {
 }
 
 nav ul li a:active {
-    color: var(--orange);
+    color: var(--amber-interactiveComp-h);
 }
 
 .dropdown-content a {
-    color: var(--white);
+    color: var(--links-text-amber);
     text-align: left;
     font-weight: bold;
     font-size: 1.3em;
@@ -192,8 +246,8 @@ nav ul li a:active {
 }
 
 .dropdown-content a:hover {
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--links-text-amber);
+    color: var(--bg-amber-soft);
 }
 
 .dropdown-content a::after{
@@ -201,8 +255,7 @@ nav ul li a:active {
 }
 
 .dropdown-content a:active {
-    background-color: var(--cyan);
-    color: var(--black);
+    background-color: var(--amber-interactiveComp-h);
 }
 
 .dropdown:hover .dropdown-content {
@@ -224,9 +277,9 @@ nav ul li a:active {
     left: 100%;
     min-width: 250px;
     padding: 10px;
-    background-color: var(--blackfade);
+    background-color: var(--bg-amber-soft);
     border-radius: 10px;
-    box-shadow: 5px 10px 15px 0px var(--black);
+    box-shadow: 5px 10px 15px 0px var(--amber-interactiveComp-s);
     z-index: 3;
     backdrop-filter: blur(10px);
 }
@@ -246,26 +299,26 @@ nav ul li a:active {
     left: 100%;
     min-width: 250px;
     padding: 10px;
-    background-color: var(--blackfade);
+    background-color: var(--bg-amber-soft);
     border-radius: 10px;
-    box-shadow: 5px 10px 15px 0px var(--black);
+    box-shadow: 5px 10px 15px 0px var(--amber-interactiveComp-s);
     z-index: 3;
     backdrop-filter: blur(10px);
 }
 
 #hire {
-    border: 3px solid var(--cyan);
-    background-color: var(--cyan);
-    color: var(--black);
+    border: 3px solid var(--amber-border-s);
+    background-color: var(--links-text-amber);
+    color: var(--bg-amber-soft);
     text-shadow: none;
     border-radius: 50px;
     padding: 5px 15px;
-    box-shadow: 0 0 15px var(--cyan);
+    box-shadow: 0 0 15px var(--amber-interactiveComp-s);
 }
 
 #hire:hover {
-    color: var(--cyan);
-    background-color: transparent;
+    color: var(--links-text-amber);
+    background-color: var(--bg-amber-soft);
 }
 
 #hire:hover::after {
@@ -273,7 +326,7 @@ nav ul li a:active {
 }
 
 #hire:active {
-    box-shadow: 0px 0px 7px 0px var(--cyan);
+    box-shadow: 0px 0px 7px 0px var(--amber-interactiveComp-s);
     transform: scale(0.95);
 }
 
@@ -296,12 +349,12 @@ nav ul li a:active {
     border-radius: 5px;
     width: 100%;
     position: absolute;
-    background-color: #fff;
+    background-color: var(--amber-solid-h);
     transition: .3s ease;
 }
 
 .stack:hover div {
-    background-color: #0ff;
+    background-color: var(--amber-solid-s);
 }
 
 .stack.active #stack_t {
@@ -341,7 +394,7 @@ nav ul::after {
 
     nav {
         width: 100%;
-        background-color: #333;
+        background-color: var(--bg-amber-soft);
         transform: translateY(-800px);
         transition: transform 0.6s ease-out;
     }
@@ -354,11 +407,12 @@ nav ul::after {
         padding-top: 100px;
         padding-left: 0;
         padding-right: 0;
+        background-color: var(--bg-amber-soft);
     }
 
     nav ul li {
         display: block;  
-        background-color: #333;
+        background-color: var(--bg-amber-soft);
     }
 
     nav ul li a{
@@ -397,7 +451,7 @@ nav ul::after {
 
 .section1 {
     padding: 0 100px;
-    color: var(--white);
+    color: var(--hight-ctr-txt-amber);
 }
 
 h2 {
@@ -406,7 +460,7 @@ h2 {
     font-weight: bold;
     margin-bottom: 20px;
     margin-top: 20px;
-    color: var(--cyan);
+    color: var(--links-text-amber);
 }
 
 h3 {
@@ -478,10 +532,14 @@ h3 {
 
 .section2 {
     padding: 0 100px;
-    color: var(--white);
+    color: var(--hight-ctr-txt-amber);
     width: 100vw;
     margin-top: 100px;
     margin-bottom: 100px;   
+}
+
+.section2 h3 {
+    color: var(--links-text-amber);
 }
 
 .content {
@@ -572,12 +630,16 @@ h3 {
 
 .section3 {
     padding: 0 100px;
-    color: var(--white);
+    color: var(--hight-ctr-txt-amber);
     width: 100vw;
 }
 
+.section3 h3 {
+    color: var(--links-text-amber);
+}
+
 .center {
-    background: var(--white);
+    background: var(--bg-amber-soft);
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -591,7 +653,7 @@ h3 {
     font-size: 6em;
     font-weight: bold;
     text-align: center;
-    color: var(--black);
+    color: var(--hight-ctr-txt-amber);
 }
 
 @media screen and (max-width: 800px){
@@ -620,7 +682,7 @@ h3 {
 
 .section4 {
     padding: 0 100px;
-    color: var(--white);
+    color: var(--hight-ctr-txt-amber);
     width: 100vw;
     margin-top: 100px;
 }
@@ -670,7 +732,7 @@ h3 {
   .carousel-slide img {
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 15px var(--amber-interactiveComp-s);
     object-fit: contain;
   }
   
@@ -695,7 +757,7 @@ h3 {
 
   .section5 {
     padding: 0 100px;
-    color: var(--white);
+    color: var(--hight-ctr-txt-amber);
     width: 100vw;
     margin-top: 100px;
   }
@@ -703,11 +765,13 @@ h3 {
   .section5 h2 {
     text-align: right;
     margin-right: 100px;
+    color: var(--links-text-amber);
 }
 
     .section5 h3 {
     text-align: right;
     margin-right: 100px;
+    color: var(--links-text-amber);
 }
 
   .section5 p {
@@ -748,7 +812,7 @@ h3 {
 
   .section6 {
     padding: 0 100px;
-    color: var(--white);
+    color: var(--hight-ctr-txt-amber);
     width: 100vw;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -757,11 +821,13 @@ h3 {
   .section6 h2 {
     text-align: right;
     margin-right: 100px;
+    color: var(--links-text-amber);
 }
 
     .section6 h3 {
     text-align: right;
     margin-right: 100px;
+    color: var(--links-text-amber);
 }
 
   .section6 p {

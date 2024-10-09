@@ -6,19 +6,74 @@
 
 
 :root {
-    --white: #fff;
+    /* --white: #fff;
     --black: #000;
     --blackfade: #000000a2;
     --whiteBgOdd: rgb(240, 245, 218);
     --cyan: #0ff;
     --orange: #0ff;
-    /* --orange: #F5B91D; */
-    --shadowblue: #3B6CF5;
+    /* --orange: #F5B91D; 
+    --shadowblue: #3B6CF5; */
+
+    /* Backgrounds */
+    --bg-cyan: #0B161A;
+    --bg-cyan-soft: #101B20;
+
+    /* Secondary text, links */
+    --links-text-cyan: #4CCCE6;
+
+    /* High-contrast text */
+    --hight-ctr-txt-cyan: #B6ECF7;
+
+    /* Borders and separators */
+    --cyan-border-h: #045468;
+    --cyan-border-m: #12677E;
+
+    /* Borders, focus rings, disabled text */
+    --cyan-border-s: #11809C;
+
+    /* Solid backgrounds, disabled text */
+    --cyan-solid-h: #00A2C7;
+    --cyan-solid-s: #23AFD0;
+
+    /* Interactive components */
+    --cyan-interactiveComp-h: #082C36;
+    --cyan-interactiveComp-m: #003848;
+    --cyan-interactiveComp-s: #004558;
+
+
+    /* Backgrounds */
+    --bg-amber: #16120C;
+    --bg-amber-soft: #1D180F;
+
+    /* Secondary text, links */
+    --links-text-amber: #FFCA16;
+
+    /* High-contrast text */
+    --hight-ctr-txt-amber: #FFE7B3;
+
+    /* Borders and separators */
+    --amber-border-h: #5C3D05;
+    --amber-border-m: #714F19;
+
+    /* Borders, focus rings, disabled text */
+    --amber-border-s: #8F6424;
+
+    /* Solid backgrounds, disabled text */
+    --amber-solid-h: #FFC53D;
+    --amber-solid-s: #FFD60A;
+
+    /* Interactive components */
+    --amber-interactiveComp-h: #302008;
+    --amber-interactiveComp-m: #3F2700;
+    --amber-interactiveComp-s: #4D3000;
+
 }
 
 body {
-    background: var(--white);
+    background: var(--bg-cyan-soft);
     font-family: roboto, sans-serif;
+    color: var(--hight-ctr-txt-cyan);
 }
 
 nav {
@@ -66,9 +121,9 @@ nav ul li {
     position: absolute;
     min-width: 500px;
     padding: 10px;
-    background-color: var(--blackfade);
+    background-color: var(--bg-cyan-soft);
     border-radius: 10px;
-    box-shadow: 0px 10px 15px 0px var(--black);
+    box-shadow: 0px 10px 15px 0px var(--cyan-interactiveComp-h);
     z-index: 3;
     left: 50%;
     transform: translateX(-50%);
@@ -76,7 +131,7 @@ nav ul li {
 }
 
 .dropdown-services-content a {
-    color: var(--white);
+    color: var(--links-text-cyan);
     text-align: left;
     font-weight: bold;
     font-size: 1.3em;
@@ -90,8 +145,8 @@ nav ul li {
 }
 
 .dropdown-services a:not(.dropdown-services>a):hover {
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--links-text-cyan);
+    color: var(--bg-cyan-soft);
 }
 
 .dropdown-services-content a::after {
@@ -106,8 +161,8 @@ nav ul li {
 }
 
 .dropdown-services-content a:active {
-    background-color: var(--cyan);
-    color: var(--black);
+    background-color: var(--bg-cyan-soft);
+    color: var(--links-text-cyan);
 }
 
 .dropdown {
@@ -119,9 +174,9 @@ nav ul li {
     position: absolute;
     min-width: 250px;
     padding: 10px;
-    background-color: var(--blackfade);
+    background-color: var(--bg-cyan-soft);
     border-radius: 10px;
-    box-shadow: 0px 10px 15px 0px var(--black);
+    box-shadow: 0px 10px 15px 0px var(--cyan-interactiveComp-h);
     z-index: 3;
     backdrop-filter: blur(10px);
 }
@@ -134,7 +189,7 @@ nav ul li a, .dropdown-content a {
     font-size: 1.3em;
     font-weight: bold;
     text-transform: capitalize;
-    color: var(--white);
+    color: var(--links-text-cyan);
     text-align: center;
     transition: 0.3s ease-in-out;
     line-height: normal;
@@ -142,8 +197,8 @@ nav ul li a, .dropdown-content a {
 }
 
 .actif {
-    color: var(--cyan);
-    text-shadow: -1px 0 var(--black), 0 1px var(--black), 1px 0 var(--black), 0 -1px var(--black);
+    color: var(--cyan-solid-h);
+    text-shadow: -1px 0 var(--cyan-border-h), 0 1px var(--cyan-border-h), 1px 0 var(--cyan-border-h), 0 -1px var(--cyan-border-h);
 }
 
 .actif::after {
@@ -159,13 +214,13 @@ nav ul li a, .dropdown-content a {
 }
 
 nav ul li a:hover {
-    color: var(--cyan);
+    color: var(--cyan-solid-h);
 }
 
 nav ul li a::after{
     content: "";
     position: absolute;
-    background-color: var(--cyan);
+    background-color: var(--cyan-solid-h);
     bottom: 0;
     left: 0;
     width: 0;
@@ -179,11 +234,11 @@ nav ul li a:hover::after {
 }
 
 nav ul li a:active {
-    color: var(--orange);
+    color: var(--cyan-interactiveComp-h);
 }
 
 .dropdown-content a {
-    color: var(--white);
+    color: var(--links-text-cyan);
     text-align: left;
     font-weight: bold;
     font-size: 1.3em;
@@ -193,8 +248,8 @@ nav ul li a:active {
 }
 
 .dropdown-content a:hover {
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--links-text-cyan);
+    color: var(--bg-cyan-soft);
 }
 
 .dropdown-content a::after{
@@ -202,8 +257,7 @@ nav ul li a:active {
 }
 
 .dropdown-content a:active {
-    background-color: var(--cyan);
-    color: var(--black);
+    background-color: var(--cyan-interactiveComp-h);
 }
 
 .dropdown:hover .dropdown-content {
@@ -225,9 +279,9 @@ nav ul li a:active {
     left: 100%;
     min-width: 250px;
     padding: 10px;
-    background-color: var(--blackfade);
+    background-color: var(--bg-cyan-soft);
     border-radius: 10px;
-    box-shadow: 5px 10px 15px 0px var(--black);
+    box-shadow: 5px 10px 15px 0px var(--cyan-interactiveComp-h);
     z-index: 3;
     backdrop-filter: blur(10px);
 }
@@ -247,26 +301,27 @@ nav ul li a:active {
     left: 100%;
     min-width: 250px;
     padding: 10px;
-    background-color: var(--blackfade);
+    background-color: var(--bg-cyan-soft);
     border-radius: 10px;
-    box-shadow: 5px 10px 15px 0px var(--black);
+    box-shadow: 5px 10px 15px 0px var(--cyan-interactiveComp-h);
     z-index: 3;
     backdrop-filter: blur(10px);
 }
 
 #hire {
-    border: 3px solid var(--cyan);
-    background-color: var(--cyan);
-    color: var(--black);
+    border: 3px solid var(--cyan-border-h);
+    background-color: var(--links-text-cyan);
+    color: var(--bg-cyan-soft);   
     text-shadow: none;
     border-radius: 50px;
     padding: 5px 15px;
-    box-shadow: 0 0 15px var(--shadowblue);
+    box-shadow: 0 0 15px 0 var(--cyan-interactiveComp-s);
 }
 
 #hire:hover {
-    color: var(--cyan);
-    background-color: transparent;
+    color: var(--links-text-cyan);
+    background-color: var(--bg-cyan-soft);
+    text-shadow: 0 0 15px var(--cyan-interactiveComp-m);
 }
 
 #hire:hover::after {
@@ -274,7 +329,7 @@ nav ul li a:active {
 }
 
 #hire:active {
-    box-shadow: 0px 0px 7px 0px var(--shadowblue);
+    box-shadow: 0px 0px 7px 0px var(----cyan-interactiveComp-s);
     transform: scale(0.95);
 }
 
@@ -297,12 +352,12 @@ nav ul li a:active {
     border-radius: 5px;
     width: 100%;
     position: absolute;
-    background-color: #fff;
+    background-color: var(--cyan-solid-h);
     transition: .3s ease;
 }
 
 .stack:hover div {
-    background-color: var(--orange);
+    background-color: var(--cyan-solid-s);
 }
 
 .stack.active #stack_t {
@@ -343,7 +398,7 @@ nav ul::after {
 
     nav {
         width: 100%;
-        background-color: #333;
+        background-color: var(--bg-cyan-soft);
         transform: translateY(-800px);
         transition: transform 0.6s ease-out;
     }
@@ -356,11 +411,12 @@ nav ul::after {
         padding-top: 100px;
         padding-left: 0;
         padding-right: 0;
+        background-color: var(--bg-cyan-soft);
     }
 
     nav ul li {
         display: block;  
-        background-color: #333;
+        background-color: var(--bg-cyan-soft);
     }
 
     nav ul li a{
@@ -395,24 +451,23 @@ nav ul::after {
     }
 
     .stack div {
-        background: var(--white);
+        background: var(--cyan-solid-h);
     }
 }
 
 
 header {
     height: 50vh;
-    background-color: var(--black);
+    background-color: var(--bg-cyan);
     position: relative;
 }
 
 .titre {
-    width: 40%;
-    transform: translateX(-50%);
-    position: absolute;
-    left: 50%;
-    bottom: 50px;
-    background: var(--white);
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    background: var(--bg-cyan-soft);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -421,11 +476,17 @@ header {
 
 .titre h1 {
     font-size: 5em;
-    color: var(--black);
+    color: var(--links-text-cyan);
+}
+
+@media screen and (max-width: 1280px){
+    .titre {
+        margin-top: 0px;
+    }
 }
 
 .sec1 {
-    background: var(--white);
+    background: var(--bg-cyan-soft);
     padding: 0 100px;
     margin-top: 100px;
 }
@@ -439,6 +500,7 @@ header {
 .top {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .t-left {
@@ -457,6 +519,12 @@ header {
 
 .sec1 h2 {
     font-size: 3em;
+    color: var(--links-text-cyan);
+}
+
+
+.bottom h3 {
+    color: var(--links-text-cyan);
 }
 
 .sec1 h3 {
@@ -475,11 +543,80 @@ header {
     width: 32%;
 }
 
+section:not(.sec1) .centre h2, section:not(.sec1) .centre h3 {
+    color: var(--links-text-cyan);
+}
+
+@media screen and (max-width: 1024px){
+    .sec1 {
+        padding: 0 20px;
+    }
+
+    .serv {
+        width: 30%;
+    }
+
+    .sec1 h2 {
+        font-size: 2.2em;
+
+    }
+
+    .sec1 h3 {
+        font-size: 1.5em;
+    }
+
+    .serv h3 {
+        font-size: 1.5em;
+    }
+
+    .centre {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+
+    section:not(.sec1, .sec7) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    section:not(.sec1, .sec7) img {
+        width: 100%;
+    }
+
+    .sec1 h2 {
+        font-size: 1.7em;
+    }
+
+    .sec1 p {
+        font-size: 1em;
+    }
+
+    .titre h1 {
+        font-size: 3em;
+    }
+
+    .serv {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bottom {
+        gap: 50px;
+    }
+
+}
+
 .sec2 {
-    background: var(--black);
+    background: var(--bg-cyan);
     padding: 0 100px;
     margin-top: 100px;
-    color: var(--white);
+    color: var(--hight-ctr-txt-cyan);
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -502,7 +639,7 @@ header {
 }
 
 .sec2-right img {
-    width: 100%;
+    width: 500px;
 }
 
 .sec3 {
@@ -521,6 +658,10 @@ header {
 
 }
 
+.sec3-left img {
+    width: 100%;
+}
+
 .sec3-right {
     display: flex;
     flex-direction: column;
@@ -531,18 +672,23 @@ header {
     padding: 0 100px;
     padding-top: 60px;
     padding-bottom: 60px;
-    background: var(--black);
-    color: var(--white);
+    background: var(--bg-cyan);
+    color: var(--hight-ctr-txt-cyan);
 }
 
 .sec4 .centre {
     display: flex;
     gap: 50px;
+    align-items: center;
 }
 
 .sec4-right {
     display: flex;
 
+}
+
+.sec4-right img {
+    width: 500px;
 }
 
 .sec4-left {
@@ -567,6 +713,10 @@ header {
 
 }
 
+.sec5-left img {
+    width: 100%;
+}
+
 .sec5-right {
     display: flex;
     flex-direction: column;
@@ -577,18 +727,23 @@ header {
     padding: 0 100px;
     padding-top: 60px;
     padding-bottom: 60px;
-    background: var(--black);
-    color: var(--white);
+    background: var(--bg-cyan);
+    color: var(--hight-ctr-txt-cyan);
 }
 
 .sec6 .centre {
     display: flex;
     gap: 50px;
+    align-items: center;
 }
 
 .sec6-right {
     display: flex;
 
+}
+
+.sec6-right img {
+    width: 100%;
 }
 
 .sec6-left {
@@ -606,6 +761,7 @@ header {
 .section7 h1 {
     font-size: 4em;
     margin-bottom: 20px;
+    color: var(--links-text-cyan);
 }
 
 .section7 p:first-of-type {
@@ -616,7 +772,7 @@ header {
     font-weight: bold;
     font-size: 1.5em;
     display: block;
-    color: var(--orange);
+    color: var(--links-text-cyan);
 }
 
 .datas-block {
@@ -649,7 +805,7 @@ header {
     display: block;
     width: 20px;
     border-radius: 50%;
-    background: var(--orange);
+    background: var(--cyan-solid-s);
     position: absolute;
     top: 0;
 }
@@ -659,14 +815,14 @@ header {
     display: block;
     width: 20px;
     border-radius: 50%;
-    background: var(--orange);
+    background: var(--cyan-solid-s);
     position: absolute;
     bottom: 0;
 }
 
 .datas div .line {
     width: 2px;
-    background-color: var(--cyan);
+    background-color: var(--cyan-solid-s);
     margin: auto;
     display: block;
     height: 100%;

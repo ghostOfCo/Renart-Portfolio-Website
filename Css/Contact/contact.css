@@ -6,18 +6,72 @@
 
 
 :root {
-    --white: #fff;
+    /* --white: #fff;
     --black: #000;
     --blackfade: #000000a2;
     --whiteBgOdd: rgb(240, 245, 218);
     --cyan: #0ff;
     --orange: #0ff;
-    /* --orange: #F5B91D; */
-    --shadowblue: #3B6CF5;
+    /* --orange: #F5B91D; 
+    --shadowblue: #3B6CF5; */
+
+    /* Backgrounds */
+    --bg-cyan: #0B161A;
+    --bg-cyan-soft: #101B20;
+
+    /* Secondary text, links */
+    --links-text-cyan: #4CCCE6;
+
+    /* High-contrast text */
+    --hight-ctr-txt-cyan: #B6ECF7;
+
+    /* Borders and separators */
+    --cyan-border-h: #045468;
+    --cyan-border-m: #12677E;
+
+    /* Borders, focus rings, disabled text */
+    --cyan-border-s: #11809C;
+
+    /* Solid backgrounds, disabled text */
+    --cyan-solid-h: #00A2C7;
+    --cyan-solid-s: #23AFD0;
+
+    /* Interactive components */
+    --cyan-interactiveComp-h: #082C36;
+    --cyan-interactiveComp-m: #003848;
+    --cyan-interactiveComp-s: #004558;
+
+
+    /* Backgrounds */
+    --bg-amber: #16120C;
+    --bg-amber-soft: #1D180F;
+
+    /* Secondary text, links */
+    --links-text-amber: #FFCA16;
+
+    /* High-contrast text */
+    --hight-ctr-txt-amber: #FFE7B3;
+
+    /* Borders and separators */
+    --amber-border-h: #5C3D05;
+    --amber-border-m: #714F19;
+
+    /* Borders, focus rings, disabled text */
+    --amber-border-s: #8F6424;
+
+    /* Solid backgrounds, disabled text */
+    --amber-solid-h: #FFC53D;
+    --amber-solid-s: #FFD60A;
+
+    /* Interactive components */
+    --amber-interactiveComp-h: #302008;
+    --amber-interactiveComp-m: #3F2700;
+    --amber-interactiveComp-s: #4D3000;
+
 }
 
 body {
-    background-color: #333;
+    background-color: var(--bg-cyan);
 }
 
 nav {
@@ -65,9 +119,9 @@ nav ul li {
     position: absolute;
     min-width: 500px;
     padding: 10px;
-    background-color: var(--blackfade);
+    background-color: var(--bg-cyan-soft);
     border-radius: 10px;
-    box-shadow: 0px 10px 15px 0px var(--black);
+    box-shadow: 0px 10px 15px 0px var(--cyan-interactiveComp-s);
     z-index: 3;
     left: 50%;
     transform: translateX(-50%);
@@ -75,7 +129,7 @@ nav ul li {
 }
 
 .dropdown-services-content a {
-    color: var(--white);
+    color: var(--links-text-cyan);
     text-align: left;
     font-weight: bold;
     font-size: 1.3em;
@@ -89,8 +143,8 @@ nav ul li {
 }
 
 .dropdown-services a:not(.dropdown-services>a):hover {
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--links-text-cyan);
+    color: var(--bg-cyan-soft);
 }
 
 .dropdown-services-content a::after {
@@ -105,8 +159,8 @@ nav ul li {
 }
 
 .dropdown-services-content a:active {
-    background-color: var(--cyan);
-    color: var(--black);
+    background-color: var(--cyan-solid-h);
+    color: var(--bg-cyan-soft);
 }
 
 .dropdown {
@@ -118,9 +172,9 @@ nav ul li {
     position: absolute;
     min-width: 250px;
     padding: 10px;
-    background-color: var(--blackfade);
+    background-color: var(--bg-cyan-soft);
     border-radius: 10px;
-    box-shadow: 0px 10px 15px 0px var(--black);
+    box-shadow: 0px 10px 15px 0px var(--cyan-interactiveComp-s);
     z-index: 3;
     backdrop-filter: blur(10px);
 }
@@ -133,7 +187,7 @@ nav ul li a, .dropdown-content a {
     font-size: 1.3em;
     font-weight: bold;
     text-transform: capitalize;
-    color: var(--white);
+    color: var(--links-text-cyan);
     text-align: center;
     transition: 0.3s ease-in-out;
     line-height: normal;
@@ -141,8 +195,8 @@ nav ul li a, .dropdown-content a {
 }
 
 .actif {
-    color: var(--cyan);
-    text-shadow: -1px 0 var(--shadowblue), 0 1px var(--shadowblue), 1px 0 var(--shadowblue), 0 -1px var(--shadowblue);
+    color: var(--cyan-solid-s);
+    text-shadow: -1px 0 var(--cyan-border-h), 0 1px var(--cyan-border-h), 1px 0 var(--cyan-border-h), 0 -1px var(--cyan-border-h);
 }
 
 .actif::after {
@@ -158,13 +212,13 @@ nav ul li a, .dropdown-content a {
 }
 
 nav ul li a:hover {
-    color: var(--cyan);
+    color: var(--cyan-solid-h);
 }
 
 nav ul li a::after{
     content: "";
     position: absolute;
-    background-color: var(--cyan);
+    background-color: var(--cyan-solid-h);
     bottom: 0;
     left: 0;
     width: 0;
@@ -178,11 +232,11 @@ nav ul li a:hover::after {
 }
 
 nav ul li a:active {
-    color: var(--orange);
+    color: var(--cyan-interactiveComp-h);
 }
 
 .dropdown-content a {
-    color: var(--white);
+    color: var(--links-text-cyan);
     text-align: left;
     font-weight: bold;
     font-size: 1.3em;
@@ -192,8 +246,8 @@ nav ul li a:active {
 }
 
 .dropdown-content a:hover {
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--links-text-cyan);
+    color: var(--bg-cyan-soft);
 }
 
 .dropdown-content a::after{
@@ -201,8 +255,8 @@ nav ul li a:active {
 }
 
 .dropdown-content a:active {
-    background-color: var(--cyan);
-    color: var(--black);
+    background-color: var(--cyan-solid-h);
+    color: var(--bg-cyan-soft);
 }
 
 .dropdown:hover .dropdown-content {
@@ -224,9 +278,9 @@ nav ul li a:active {
     left: 100%;
     min-width: 250px;
     padding: 10px;
-    background-color: var(--blackfade);
+    background-color: var(--bg-cyan-soft);
     border-radius: 10px;
-    box-shadow: 5px 10px 15px 0px var(--black);
+    box-shadow: 5px 10px 15px 0px var(--cyan-interactiveComp-s);
     z-index: 3;
     backdrop-filter: blur(10px);
 }
@@ -246,26 +300,26 @@ nav ul li a:active {
     left: 100%;
     min-width: 250px;
     padding: 10px;
-    background-color: var(--blackfade);
+    background-color: var(--bg-cyan-soft);
     border-radius: 10px;
-    box-shadow: 5px 10px 15px 0px var(--black);
+    box-shadow: 5px 10px 15px 0px var(--cyan-interactiveComp-s);
     z-index: 3;
     backdrop-filter: blur(10px);
 }
 
 #hire {
-    border: 3px solid var(--cyan);
-    background-color: var(--cyan);
-    color: var(--black);
+    border: 3px solid var(--cyan-border-s);
+    background-color: var(--links-text-cyan);
+    color: var(--bg-cyan-soft);
     text-shadow: none;
     border-radius: 50px;
     padding: 5px 15px;
-    box-shadow: 0 0 15px var(--shadowblue);
+    box-shadow: 0 0 15px var(--cyan-interactiveComp-s);
     visibility:hidden;
 }
 
 #hire:hover {
-    color: var(--cyan);
+    color: var(--links-text-cyan);
     background-color: transparent;
 }
 
@@ -274,7 +328,7 @@ nav ul li a:active {
 }
 
 #hire:active {
-    box-shadow: 0px 0px 7px 0px var(--shadowblue);
+    box-shadow: 0px 0px 7px 0px var(--cyan-interactiveComp-s);
     transform: scale(0.95);
 }
 
@@ -297,12 +351,12 @@ nav ul li a:active {
     border-radius: 5px;
     width: 100%;
     position: absolute;
-    background-color: #fff;
+    background-color: var(--cyan-solid-h);
     transition: .3s ease;
 }
 
 .stack:hover div {
-    background-color: #0ff;
+    background-color: var(--cyan-solid-s);
 }
 
 .stack.active #stack_t {
@@ -345,11 +399,11 @@ nav ul::after {
     position: absolute;
     right: 100px;
     top: 0;
-    background: var(--white);
+    background: var(--hight-ctr-txt-cyan);
     z-index: 2;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    box-shadow: 0 0 5px 0 var(--black);
+    box-shadow: 0 0 5px 0 var(--cyan-interactiveComp-h);
     backdrop-filter: blur(10px);
     transition: .5s ease-out;
 }
@@ -380,16 +434,18 @@ form * {
 input, textarea {
     width: 85%;
     border: none;
-    border-bottom: 2px solid var(--black);
+    border-bottom: 2px solid var(--cyan-border-s);
     height: 50px;
     font-family: roboto, sans-serif;
     font-size: 1.2em;
     outline: none;
     transition: .5s ease;
+    background: transparent;
+    color: var(--bg-cyan-soft);
 }
 
 input:focus, textarea:focus {
-    border-bottom-color: #47968F;
+    border-bottom-color: var(--cyan-border-h);
 }
 
 textarea {
@@ -400,12 +456,12 @@ textarea {
 form button {
     height: 50px;
     width: 200px;
-    background: var(--black);
-    color: var(--white);
+    background: var(--cyan-interactiveComp-h);
+    color: var(--hight-ctr-txt-cyan);
     font-size: 1em;
     text-align: left;
     text-transform: uppercase;
-    box-shadow: 0 0 5px 0 var(--black);
+    box-shadow: 0 0 5px 0 var(--cyan-interactiveComp-s);
     position: absolute;
     bottom: 70px;
     right: 0;
@@ -420,15 +476,15 @@ form button {
 }
 
 form button:hover {
-    background-color: #47968F;
+    background-color: var(--cyan-solid-h);
 }
 
 form button:active {
-    box-shadow: 0 0 2px 0 var(--black);
+    box-shadow: 0 0 2px 0 var(--cyan-interactiveComp-s);
 }
 
 ::placeholder {
-    color: var(--black);
+    color: var(--bg-cyan-soft);
 }
 
 #map {
@@ -447,7 +503,7 @@ form button:active {
     font-family: roboto, sans-serif;
     font-weight: bold;
     font-size: 3.2em;
-    color: var(--white);
+    color: var(--hight-ctr-txt-cyan);
   }
 
   .foot {
@@ -456,7 +512,7 @@ form button:active {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: var(--black);
+    background-color: var(--bg-cyan);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -464,7 +520,7 @@ form button:active {
   }
 
   .foot p {
-    color: var(--white);
+    color: var(--hight-ctr-txt-cyan);
     font-family: roboto, sans-serif;
     font-size: 1.3em;
   }
@@ -494,7 +550,7 @@ form button:active {
 
     nav {
         width: 100%;
-        background-color: #333;
+        background-color: var(--bg-cyan-soft);
         transform: translateY(-800px);
         transition: transform 0.6s ease-out;
     }
@@ -507,11 +563,12 @@ form button:active {
         padding-top: 100px;
         padding-left: 0;
         padding-right: 0;
+        background-color: var(--bg-cyan-soft);
     }
 
     nav ul li {
         display: block;  
-        background-color: #333;
+        background-color: var(--bg-cyan-soft);
     }
 
     nav ul li a{
@@ -605,7 +662,7 @@ form button:active {
     }
 }
 
-@media screen and (width <= 648px) {
+@media screen and (width <= 640px) {
 
     form button {
         bottom: 20px;
@@ -619,9 +676,9 @@ form button:active {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: var(--black);
+        background-color: var(--bg-cyan-soft);
         box-sizing: content-box;
-        padding: 15px;
+        padding: 10px;
         border-radius: 50%;
         z-index: -1;
     }
