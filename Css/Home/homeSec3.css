@@ -67,7 +67,7 @@
     height: auto;
     /* background-color: transparent; */
     background: var(--bg-cyan);
-    box-shadow: 0 0 15px var(--cyan-interactiveComp-s);
+    /* box-shadow: 0 0 15px var(--cyan-interactiveComp-s); */
 }
 
 #div_centre_sec3 {

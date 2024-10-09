@@ -67,7 +67,7 @@
     height: 100vh;
     /* background-color: transparent; */
     background-color: var(--bg-cyan);
-    box-shadow: 0 0 15px var(--cyan-interactiveComp-h);
+    /* box-shadow: 0 0 15px var(--cyan-interactiveComp-h); */
 }
 
 #div_centre_sec1 {
@@ -172,6 +172,8 @@
     line-height: 1.2;
     box-shadow: 0 0 15px var(--cyan-interactiveComp-s);
     transition: 0.3s ease;
+    text-align: center;
+    text-decoration: none;
 }
 
 #btn_voirplus_sec1:hover {

@@ -132,6 +132,21 @@ nav ul li {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.dropdown-services-content a svg {
+    width: 30px;
+    height: 30px;
+    flex: 20%;
+}
+
+.dropdown-services-content a span {
+    text-align: left;
+    flex: 80%;
 }
 
 .dropdown-services-content div {
@@ -201,10 +216,40 @@ nav ul li a, .dropdown-content a {
 
 #dc-first {
     border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+#dc-first svg {
+    width: 30px;
+    height: 30px;
+    flex: 20%;
+}
+
+#dc-first span {
+    flex: 80%;
+    text-align: center;
 }
 
 #dc-last {
     border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+#dc-last svg {
+    width: 30px;
+    height: 30px;
+    flex: 20%;
+}
+
+#dc-last span {
+    flex: 80%;
+    text-align: center;
 }
 
 nav ul li a:hover {
