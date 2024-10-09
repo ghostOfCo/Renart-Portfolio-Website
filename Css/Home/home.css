@@ -423,6 +423,7 @@ nav ul::after {
     grid-template-rows: 9fr 1fr;
     padding: 0 10vw;
     width: 100%;
+    overflow: hidden;
 }
 
 /*.back-clip {

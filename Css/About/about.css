@@ -766,130 +766,10 @@ main {
 .section2 {
     padding: 0 100px 0 100px;
     font-family: roboto, sans-serif;
+    width: 100%;
 }
 
 .section2 h1 {
-    font-size: 4em;
-    margin-bottom: 20px;
-}
-
-.section2 p:first-of-type {
-    line-height: 2rem;
-}
-
-.section2 p span {
-    font-weight: bold;
-    font-size: 1.5em;
-    display: block;
-    color: var(--orange);
-}
-
-.datas-block {
-    max-width: 1000px;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-.datas {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr max-content 1fr;
-    column-gap: 1.5rem;
-}
-
-
-.datas>div {
-    position: relative;
-    grid-column: 2/3;
-    display: flex;
-    justify-content: center;
-}
-
-.datas div .rounder {
-    aspect-ratio: 1/1;
-    display: block;
-    width: 20px;
-    border-radius: 50%;
-    background: var(--orange);
-    position: absolute;
-    top: 0;
-}
-
-.datas div .rounder-btm {
-    aspect-ratio: 1/1;
-    display: block;
-    width: 20px;
-    border-radius: 50%;
-    background: var(--orange);
-    position: absolute;
-    bottom: 0;
-}
-
-.datas div .line {
-    width: 2px;
-    background-color: var(--white);
-    margin: auto;
-    display: block;
-    height: 100%;
-}
-
-.datas:first-of-type p {
-    grid-column: 1/2;
-}
-
-.datas:nth-of-type(2) p {
-    grid-column: 3/4;
-    grid-row: 1/2;
-}
-
-.datas:nth-of-type(3) p {
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
-.datas:nth-of-type(4) p {
-    grid-column: 3/4;
-    grid-row: 1/2;
-}
-
-.datas:nth-of-type(5) p {
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
-.datas:nth-of-type(6) p {
-    grid-column: 3/4;
-    grid-row: 1/2;
-}
-
-.sec2-end {
-    margin-bottom: 50px;
-}
-
-@media screen and (max-width: 1024px){
-    .section2 {
-        padding: 20px;
-    }
-}
-
-@media screen and (max-width: 640px){
-    .datas p {
-        height: 200px;
-        overflow-y: auto;
-    }  
-}
-
-.section3 {
-    padding: 0 100px 0 100px;
-    font-family: roboto, sans-serif;
-    width: 100%;
-}
-
-.section3 h1 {
     font-size: 4em;
     margin-bottom: 20px;
     text-align: right;
@@ -1045,7 +925,7 @@ main {
         font-size: 2em;
     }
 
-    .section3 {
+    .section2 {
         padding: 20px;
     }
 }
