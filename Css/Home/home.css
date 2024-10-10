@@ -76,25 +76,25 @@ main {
 .left-hidden-element {
     opacity: 0;
     transform: translateX(-50vw); /* Déplace vers le bas pour l'effet de transition */
-    transition: opacity 1s ease-out, transform 1s ease-out;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   }
 
   .lite-left-hidden-element {
     opacity: 0;
     transform: translateX(-100px); /* Déplace vers le bas pour l'effet de transition */
-    transition: opacity 1s ease-out, transform 1s ease-out;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   }
 
   .right-hidden-element {
     opacity: 0;
     transform: translateX(800px); /* Déplace vers le bas pour l'effet de transition */
-    transition: opacity 1s ease-out, transform 1s ease-out;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   }
 
   .lite-right-hidden-element {
     opacity: 0;
     transform: translateX(100px); /* Déplace vers le bas pour l'effet de transition */
-    transition: opacity 1s ease-out, transform 1s ease-out;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   }
   
   .visible {
@@ -106,19 +106,19 @@ main {
   .bottom-hidden-element {
     opacity: 0;
     transform: translateY(10%); /* Déplace vers le bas pour l'effet de transition */
-    transition: opacity 1s ease-out, transform 1s ease-out;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   }
 
   .lite-bottom-hidden-element {
     opacity: 0;
     transform: translateY(100px); /* Déplace vers le bas pour l'effet de transition */
-    transition: opacity 1s ease-out, transform 1s ease-out;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   }
 
   .lite-top-hidden-element {
     opacity: 0;
     transform: translateY(-100px); /* Déplace vers le bas pour l'effet de transition */
-    transition: opacity 1s ease-out, transform 1s ease-out;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   }
 
   .bottom-visible {

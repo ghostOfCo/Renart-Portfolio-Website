@@ -165,7 +165,7 @@
     /*border-width: 2px;
     border-color: rgb(240, 245, 218);
     border-style: solid;*/
-    background-color: var(--cyan-solid-h);
+    background-color: transparent;
     width: 30%;
     aspect-ratio: 1/1;
     box-shadow: 0 0 5px 0 var(--cyan-interactiveComp-h);

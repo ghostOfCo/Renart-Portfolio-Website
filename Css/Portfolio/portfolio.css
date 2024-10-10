@@ -535,6 +535,13 @@ h3 {
     clear: both;
 }
 
+.center-sec1 a {
+    text-decoration: none;
+    color: var(--links-text-amber);
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
 @media screen and (max-width: 1280px){
     .section1 img {
         float: none;
@@ -599,6 +606,13 @@ h3 {
     width: 50%;
     display: flex;
     align-items: center;
+}
+
+.descriptions a {
+    text-decoration: none;
+    color: var(--links-text-amber);
+    font-size: 1.2em;
+    font-weight: bolder;
 }
 
 .left {
@@ -777,7 +791,7 @@ h3 {
   .carousel-slide img {
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0px 4px 15px var(--amber-interactiveComp-s);
+    box-shadow: 0px 4px 15px var(--bg-amber);
     object-fit: contain;
   }
   
@@ -827,11 +841,20 @@ h3 {
     text-align: justify;
   }
 
+  .section5 a {
+    text-decoration: none;
+    color: var(--links-text-amber);
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
   .section5 .centre {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    background-color: var(--hight-ctr-txt-amber);
+    border-radius: 20px;
   }
 
   .centre .img-cont {
@@ -883,12 +906,25 @@ h3 {
     text-align: justify;
   }
 
+  .section6 a {
+    text-decoration: none;
+    color: var(--links-text-amber);
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
   .section6 .middle {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 10px;
     padding: 0 100px;
+  }
+
+  .middle .img-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .middle .img-cont img {

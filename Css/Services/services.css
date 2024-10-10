@@ -446,6 +446,8 @@ nav ul::after {
         background-color: var(--bg-cyan-soft);
         transform: translateY(-800px);
         transition: transform 0.6s ease-out;
+        position: relative;
+        z-index: 2;
     }
 
     nav.active {
@@ -503,7 +505,9 @@ nav ul::after {
 
 header {
     height: 50vh;
-    background-color: var(--bg-cyan);
+    /* background-color: var(--bg-cyan); */
+    background: url('../../imgs/sercice-bg.svg') center no-repeat;
+    background-size: cover;
     position: relative;
 }
 
@@ -512,16 +516,20 @@ header {
     max-width: 600px;
     margin: auto;
     margin-top: 50px;
-    background: var(--bg-cyan-soft);
+    background: #101b20a4;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50%;
+    backdrop-filter: blur(5px);
+    position: relative;
+    z-index: 1;
 }
 
 .titre h1 {
     font-size: 5em;
     color: var(--links-text-cyan);
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 1280px){
@@ -628,7 +636,7 @@ section:not(.sec1) .centre h2, section:not(.sec1) .centre h3 {
     }
 
     section:not(.sec1, .sec7) img {
-        width: 100%;
+        width: 300px;
     }
 
     .sec1 h2 {
@@ -706,7 +714,7 @@ section:not(.sec1) .centre h2, section:not(.sec1) .centre h3 {
 }
 
 .sec3-left img {
-    width: 100%;
+    width: 500px;
 }
 
 .sec3-right {
@@ -762,7 +770,7 @@ section:not(.sec1) .centre h2, section:not(.sec1) .centre h3 {
 }
 
 .sec5-left img {
-    width: 100%;
+    width: 500px;
 }
 
 .sec5-right {
@@ -791,7 +799,7 @@ section:not(.sec1) .centre h2, section:not(.sec1) .centre h3 {
 }
 
 .sec6-right img {
-    width: 100%;
+    width: 500px;
 }
 
 .sec6-left {
@@ -920,4 +928,10 @@ section:not(.sec1) .centre h2, section:not(.sec1) .centre h3 {
         height: 200px;
         overflow-y: auto;
     }  
+}
+
+@media screen and (max-width: 800px){
+    .centre img {
+        width: 400px;
+    }
 }

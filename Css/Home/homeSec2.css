@@ -93,7 +93,7 @@
 .div_projets_sec2_lat {
     border-width: 1px;
     border-color: var(--cyan-border-h);
-    border-style: solid;
+    border-style: none;
     border-radius: 20px;
     background-color: var(--cyan-solid-h);
     width: 100%;
@@ -108,7 +108,7 @@
 #sec2_projet_centre {
     border-width: 2px;
     border-color: var(--cyan-border-h);
-    border-style: solid;
+    border-style: none;
     border-radius: 20px;
     background-color: var(--cyan-solid-h);;
     width: 100%;

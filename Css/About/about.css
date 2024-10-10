@@ -639,6 +639,7 @@ main {
 }
 
 .my-works div p {
+    font-family: roboto, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;

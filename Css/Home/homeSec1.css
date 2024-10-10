@@ -121,9 +121,9 @@
 .div_services_sec1 {
     border-width: 2px;
     border-color: rgb(255, 255, 255);
-    border-style: solid;
+    border-style: none;
     border-radius: 20px;
-    background-color: var(--bg-amber-soft);
+    background-color: transparent;
     width: 30%;
     aspect-ratio: 1/1;
 }

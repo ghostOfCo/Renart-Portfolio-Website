@@ -79,6 +79,7 @@
     /* background-color: #000000b7; */
     /* box-shadow: 0 0 15px var(--black); */
     background-color: transparent;
+    gap: 50px;
     
 }
 
@@ -118,7 +119,7 @@
 #prohaut {
     border-width: 2px;
     border-color: var(--cyan-border-h);
-    border-style: solid;
+    border-style: none;
     background: url('../../imgs/process_design.svg') center no-repeat;
     background-size: cover;
     width: 45%;
@@ -129,8 +130,8 @@
 #procentre {
     border-width: 2px;
     border-color: var(--cyan-border-h);
-    border-style: solid;
-    background: url('../../imgs/process_code.jpg') 80% center no-repeat;
+    border-style: none;
+    background: url('../../imgs/process2.svg') 80% center no-repeat;
     background-size: cover;
     width: 40%;
     aspect-ratio: 1/1;
@@ -142,8 +143,8 @@
 #probas {
     border-width: 2px;
     border-color: var(--cyan-border-h);
-    border-style: solid;
-    background-color: var(--cyan-solid-h);
+    border-style: none;
+    background-color: transparent;
     width: 35%;
     aspect-ratio: 1/1;
     float: left;
