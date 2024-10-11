@@ -885,7 +885,7 @@ section:not(.sec1) .centre h2, section:not(.sec1) .centre h3 {
     font-family: "lora", serif;
 }
 
-.section7 p:first-of-type {
+.intro {
     line-height: 2rem;
 }
 
@@ -990,9 +990,13 @@ section:not(.sec1) .centre h2, section:not(.sec1) .centre h3 {
 }
 
 @media screen and (max-width: 640px){
+
     .datas p {
-        height: 200px;
+        height: 250px;
         overflow-y: auto;
+        font-size: .7em;
+        text-align: center;
+        overflow-x: hidden;
     }  
 }
 

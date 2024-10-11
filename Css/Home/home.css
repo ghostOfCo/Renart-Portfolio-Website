@@ -1013,6 +1013,8 @@ nav ul::after {
 
     #head-back {
         padding-top: 10vh;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     #back_hleft p {
