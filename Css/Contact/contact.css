@@ -70,6 +70,14 @@
 
 }
 
+h1, h2, h3, a {
+    font-family: "nunito", sans-serif;
+}
+
+p {
+    font-family: "lato", sans-serif;
+}
+
 body {
     background-color: var(--bg-cyan);
 }
@@ -199,7 +207,6 @@ nav ul li a, .dropdown-content a {
     display: block;
     padding: 16px 18px;
     text-decoration: none;
-    font-family: roboto, sans-serif;
     font-size: 1.3em;
     font-weight: bold;
     text-transform: capitalize;
@@ -486,7 +493,7 @@ input, textarea {
     border: none;
     border-bottom: 2px solid var(--cyan-border-s);
     height: 50px;
-    font-family: roboto, sans-serif;
+    font-family: "lato", sans-serif;
     font-size: 1.2em;
     outline: none;
     transition: .5s ease;
@@ -519,7 +526,7 @@ form button {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     padding-left: 20px;
-    font-family: roboto, sans-serif;
+    font-family: "lato", sans-serif;
     cursor: pointer;
     transition: background .3s ease;
     font-weight: bold;

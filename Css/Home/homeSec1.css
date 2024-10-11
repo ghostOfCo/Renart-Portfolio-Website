@@ -63,6 +63,10 @@
     --amber-interactiveComp-s: #4D3000;
 }
 
+strong {
+    font-family: "nunito", sans-serif;
+}
+
 #section_1 {
     height: 100vh;
     /* background-color: transparent; */
@@ -94,7 +98,7 @@
 
 #sec1_gauche h1 {
     font-size: 2.5em;
-    font-family: "Roboto";
+    font-family: "nunito", sans-serif;
     color: var(--links-text-cyan);
     font-weight: bold;
     line-height: 1.2;
@@ -151,7 +155,7 @@
 
 #sec1_droite p {
     font-size: 35px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "lato", sans-serif;
     color: var(--hight-ctr-txt-cyan);
     line-height: 1.2;  
     text-align: center; 
@@ -166,7 +170,7 @@
     padding: 7px 30px;
     font-size: 1.7em;
     margin: 0 auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "lato", sans-serif;
     color: var(--links-text-cyan);
     font-weight: bold;
     line-height: 1.2;

@@ -89,7 +89,7 @@
 
 #sec4_gauche p {
     font-size: 1.9em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "lato", sans-serif;
     color: var(--hight-ctr-txt-cyan);
     line-height: 1.2em;
     font-weight: bold;
@@ -104,7 +104,7 @@
     background-color: transparent;
     padding: 7px 30px;
     font-size: 1.7em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "lato", sans-serif;
     color: var(--links-text-cyan);
     box-shadow: 0 0 15px var(--cyan-interactiveComp-s);
     font-weight: bold;
@@ -139,7 +139,7 @@
 
 #div_h1_sec4 h1{
     font-size: 45px;
-    font-family: Roboto, sans-serif;
+    font-family: "nunito", sans-serif;
     color: var(--links-text-cyan);
     font-weight: bold;
     line-height: 1.2;

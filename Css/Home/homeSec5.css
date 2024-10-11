@@ -93,7 +93,7 @@
 
 #div_h1_sec5 h1 {
     font-size: 45px;
-    font-family: "Roboto";
+    font-family: "nunito", sans-serif;
     color: var(--links-text-cyan);
     font-weight: bold;
     line-height: 1.2;
@@ -109,7 +109,7 @@
 
 #sec5_gauche p {
     font-size: 4em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "lato", sans-serif;
     color: var(--hight-ctr-txt-cyan);
     line-height: 1.2;
     text-align: left;
@@ -132,7 +132,7 @@
 
 #sec5_droite p {
     font-size: 6em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "lato", sans-serif;
     color: var(--hight-ctr-txt-cyan);
     font-weight: bold;
     line-height: 1.2;

@@ -123,6 +123,14 @@
     transform: translateY(0); /* Remet en place */
   }
 
+  h1, h2, h3 {
+    font-family: "lora", sans-serif;
+}
+
+p, a {
+    font-family: "open sans", sans-serif;
+}
+
   main {
     overflow-x: hidden;
   }
@@ -251,7 +259,7 @@ nav ul li a, .dropdown-content a {
     display: block;
     padding: 16px 18px;
     text-decoration: none;
-    font-family: roboto, sans-serif;
+    font-family: "open sans", sans-serif;
     font-size: 1.3em;
     font-weight: bold;
     text-transform: capitalize;
@@ -512,7 +520,7 @@ main {
 
 .resume {
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: "open sans", sans-serif;
     font-size: 1.5em;
     display: flex;
     align-items: center;
@@ -615,7 +623,7 @@ main {
 .center>h1 {
     width: 100%;
     text-align: center;
-    font-family: roboto, sans-serif;
+    font-family: "lora", sans-serif;
     font-size: 6em;
     text-transform: uppercase;
     border: 2px solid var(--amber-border-h);
@@ -623,17 +631,17 @@ main {
 }
 
 .topic {
-    font-family: roboto, sans-serif;
+    font-family: "open sans", sans-serif;
     font-size: 2em;
-    font-weight: lighter;
 }
 
 .topic>span {
     font-weight: bold;
+    font-family: "lora", sans-serif;
 }
 
 .bio {
-    font-family: roboto, sans-serif;
+    font-family: "open sans", sans-serif;
     font-size: 1.1em;
 }
 
@@ -660,7 +668,7 @@ main {
 }
 
 .numbers div p {
-    font-family: roboto, sans-serif;
+    font-family: "open sans", sans-serif;
     font-size: 5em;
     color: var(--hight-ctr-txt-amber);
     font-weight: bold;
@@ -675,7 +683,7 @@ main {
 }
 
 .my-works h1 {
-    font-family: roboto, sans-serif;
+    font-family: "lora", sans-serif;
     font-size: 1.8em;
     color: var(--links-text-amber);
 }
@@ -693,7 +701,7 @@ main {
 }
 
 .my-works div p {
-    font-family: roboto, sans-serif;
+    font-family: "open sans", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -701,7 +709,7 @@ main {
 }
 
 .my-works div>p span {
-    font-family: roboto, sans-serif;
+    font-family: "lora", sans-serif;
     font-size: 1.3em;
     font-weight: bold;
     display: block;
@@ -904,7 +912,7 @@ main {
 
 .section2 {
     padding: 0 100px 0 100px;
-    font-family: roboto, sans-serif;
+    font-family: "open sans", sans-serif;
     width: 100%;
 }
 

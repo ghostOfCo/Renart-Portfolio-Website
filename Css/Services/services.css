@@ -125,7 +125,7 @@
 
 body {
     background: var(--bg-cyan-soft);
-    font-family: roboto, sans-serif;
+    font-family: "open sans", sans-serif;
     color: var(--hight-ctr-txt-cyan);
 }
 
@@ -188,6 +188,7 @@ nav ul li {
 }
 
 .dropdown-services-content a {
+    font-family: "open sans", sans-serif;
     color: var(--links-text-cyan);
     text-align: left;
     font-weight: bold;
@@ -257,7 +258,7 @@ nav ul li a, .dropdown-content a {
     display: block;
     padding: 16px 18px;
     text-decoration: none;
-    font-family: roboto, sans-serif;
+    font-family: "open sans", sans-serif;
     font-size: 1.3em;
     font-weight: bold;
     text-transform: capitalize;
@@ -584,6 +585,7 @@ header {
 }
 
 .titre h1 {
+    font-family: "lora", serif;
     font-size: 5em;
     color: var(--links-text-cyan);
     text-transform: uppercase;
@@ -630,6 +632,7 @@ header {
 .sec1 h2 {
     font-size: 3em;
     color: var(--links-text-cyan);
+    font-family: "lora", serif;
 }
 
 
@@ -639,6 +642,11 @@ header {
 
 .sec1 h3 {
     font-size: 2em;
+    font-family: "lora", serif;
+}
+
+h2, h3 {
+    font-family: "lora", serif;
 }
 
 .bottom {
@@ -867,7 +875,6 @@ section:not(.sec1) .centre h2, section:not(.sec1) .centre h3 {
 
 .section7 {
     padding: 0 100px 0 100px;
-    font-family: roboto, sans-serif;
     margin-top: 60px;
 }
 
@@ -875,6 +882,7 @@ section:not(.sec1) .centre h2, section:not(.sec1) .centre h3 {
     font-size: 4em;
     margin-bottom: 20px;
     color: var(--links-text-cyan);
+    font-family: "lora", serif;
 }
 
 .section7 p:first-of-type {
@@ -886,6 +894,7 @@ section:not(.sec1) .centre h2, section:not(.sec1) .centre h3 {
     font-size: 1.5em;
     display: block;
     color: var(--links-text-cyan);
+    font-family: "lora", serif;
 }
 
 .datas-block {

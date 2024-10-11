@@ -277,7 +277,7 @@ nav ul li a, .dropdown-content a {
     display: block;
     padding: 16px 18px;
     text-decoration: none;
-    font-family: roboto, sans-serif;
+    font-family: "nunito", sans-serif;
     font-size: 1.3em;
     font-weight: bold;
     text-transform: capitalize;
@@ -519,7 +519,7 @@ nav ul::after {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 9fr 1fr;
-    padding: 0 10vw;
+    padding: 0 100px;
     width: 100%;
     overflow: hidden;
 }
@@ -577,7 +577,7 @@ nav ul::after {
     justify-content: center;
     font-size: 1.2em;
     color: var(--hight-ctr-txt-cyan);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    font-family: "lato", sans-serif;  
     z-index: 0;
     backdrop-filter: blur(10px);
 }
@@ -605,7 +605,7 @@ nav ul::after {
 #back_hleft h2 span{
     font-size: clamp(2.5rem, 3.5vw, 3.1em);
     text-shadow: 0 0 15px var(--cyan-interactiveComp-h);
-    font-family: "Baskervville SC", serif;
+    font-family: "nunito", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
@@ -625,7 +625,7 @@ nav ul::after {
 
 #back_hleft ul li p{
     font-size: 1em;
-    font-family: Montserrat, sans-serif; 
+    font-family: "lato", sans-serif; 
     font-weight: normal;
 }
 
@@ -644,7 +644,7 @@ nav ul::after {
 
 #back_hleft #account #div_btn a {
     padding: 10px 0;  
-    font-family: roboto, sans-serif;
+    font-family: "nunito", sans-serif;
     font-size: 1.2em;
     border-radius: 25px;
     box-shadow: 0px 0px 50px 0px var(--cyan-interactiveComp-h);
@@ -775,7 +775,7 @@ nav ul::after {
 
 #head_bottom div span {
     font-weight: bold;
-    font-family: roboto, sans-serif;
+    font-family: "nunito", sans-serif;
     font-size: 3em;
     line-height: 1em;
     color: var(--links-text-cyan);
@@ -784,7 +784,7 @@ nav ul::after {
 #head_bottom div p {
     display: inline-block;
     color: var(--hight-ctr-txt-cyan);
-    font-family: Montserrat, sans-serif; 
+    font-family: "lato", sans-serif; 
 }
 
 @media screen and (width <= 1280px) {
@@ -1059,7 +1059,7 @@ footer {
 
 footer p {
     font-size: 1.2em;
-    font-family: "Verdana";
+    font-family: "lato", sans-serif;
     color: var(--hight-ctr-txt-cyan);
     font-weight: bold;
     line-height: 1.2;

@@ -97,7 +97,7 @@
 
 #div_h1_sec3 h1 {
     font-size: 45px;
-    font-family: "Roboto";
+    font-family: "nunito", sans-serif;
     color: var(--links-text-cyan);;
     font-weight: bold;
     line-height: 1.2;
@@ -167,7 +167,7 @@
 
 #sec3_droite p {
     font-size: 35px;
-    font-family: "Verdana";
+    font-family: "lato", sans-serif;
     color: var(--hight-ctr-txt-cyan);
     line-height: 1.2;
     text-align: center;
@@ -180,7 +180,7 @@
     border-radius: 20px;
     padding: 7px 30px;
     font-size: 1.7em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "lato", sans-serif;
     color: var(--links-text-cyan);
     font-weight: bold;
     line-height: 1.2;
