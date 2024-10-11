@@ -70,6 +70,63 @@
 
 }
 
+.left-hidden-element {
+    opacity: 0;
+    transform: translateX(-50vw); /* Déplace vers le bas pour l'effet de transition */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  .lite-left-hidden-element {
+    opacity: 0;
+    transform: translateX(-100px); /* Déplace vers le bas pour l'effet de transition */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  .right-hidden-element {
+    opacity: 0;
+    transform: translateX(800px); /* Déplace vers le bas pour l'effet de transition */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  .lite-right-hidden-element {
+    opacity: 0;
+    transform: translateX(100px); /* Déplace vers le bas pour l'effet de transition */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  .visible {
+    opacity: 1;
+    transform: translateX(0); /* Remet en place */
+  }
+
+
+  .bottom-hidden-element {
+    opacity: 0;
+    transform: translateY(10%); /* Déplace vers le bas pour l'effet de transition */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  .lite-bottom-hidden-element {
+    opacity: 0;
+    transform: translateY(100px); /* Déplace vers le bas pour l'effet de transition */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  .lite-top-hidden-element {
+    opacity: 0;
+    transform: translateY(-100px); /* Déplace vers le bas pour l'effet de transition */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  .bottom-visible {
+    opacity: 1;
+    transform: translateY(0); /* Remet en place */
+  }
+
+  main {
+    overflow-x: hidden;
+  }
+
 nav {
     width: 100%;
     z-index: 3;
@@ -494,7 +551,9 @@ main {
     background-size: cover;
     transition: .5s ease;
     position: relative;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @property --angle {
@@ -540,13 +599,8 @@ main {
 
 .profil img {
     border-radius: 50%;
-    width: 200px;
+    width: 100%;
     aspect-ratio: 1/1;
-    object-fit: cover;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     z-index: 2;
 }
 
@@ -719,6 +773,10 @@ main {
         display: none;
     }
 
+    .profil:hover {
+        transform: none;
+    }
+
     #end-ul {
         float: none;
     }
@@ -740,21 +798,8 @@ main {
         font-size: 3.5em;
     }
 
-    .profil img {
-        width: 200px;
-        transition: .5s linear;
-    }
-
     .profil {
         width: 200px;
-    }
-
-    .profil:hover {
-        transform: scale(1.2);
-    }
-
-    .profil img:hover {
-        transform: scale(1);
     }
 }
 
@@ -818,14 +863,6 @@ main {
 
     .numbers div p {
         font-size: 3em;
-    }
-
-    .profil img {
-        width: 350px;
-    } 
-
-    .profil {
-        width: 350px;
     }
 }
 

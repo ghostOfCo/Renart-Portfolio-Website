@@ -70,8 +70,65 @@
 
 }
 
+.left-hidden-element {
+    opacity: 0;
+    transform: translateX(-50vw); /* Déplace vers le bas pour l'effet de transition */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  .lite-left-hidden-element {
+    opacity: 0;
+    transform: translateX(-100px); /* Déplace vers le bas pour l'effet de transition */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  .right-hidden-element {
+    opacity: 0;
+    transform: translateX(800px); /* Déplace vers le bas pour l'effet de transition */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  .lite-right-hidden-element {
+    opacity: 0;
+    transform: translateX(100px); /* Déplace vers le bas pour l'effet de transition */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  .visible {
+    opacity: 1;
+    transform: translateX(0); /* Remet en place */
+  }
+
+
+  .bottom-hidden-element {
+    opacity: 0;
+    transform: translateY(10%); /* Déplace vers le bas pour l'effet de transition */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  .lite-bottom-hidden-element {
+    opacity: 0;
+    transform: translateY(100px); /* Déplace vers le bas pour l'effet de transition */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  .lite-top-hidden-element {
+    opacity: 0;
+    transform: translateY(-100px); /* Déplace vers le bas pour l'effet de transition */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  .bottom-visible {
+    opacity: 1;
+    transform: translateY(0); /* Remet en place */
+  }
+
 body {
     background: var(--bg-amber);
+}
+
+main {
+    overflow-x: hidden;
 }
 
 nav {
@@ -442,6 +499,8 @@ nav ul::after {
         background-color: var(--bg-amber-soft);
         transform: translateY(-800px);
         transition: transform 0.6s ease-out;
+        z-index: 2;
+        position: relative;
     }
 
     nav.active {
@@ -488,7 +547,7 @@ nav ul::after {
 
     .stack {
         display: block;
-        z-index: 1;
+        z-index: 3;
     }
 }
 
@@ -522,14 +581,20 @@ h3 {
     text-align: justify;
 }
 
-.section1 img {
-    width: 600px;
-    float: right;
-    margin-left: 20px;
-    transform: translateY(100px);
+.center-sec1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row-reverse;
 }
 
-.section1::after {
+.center-sec1 img {
+    width: 600px;
+    align-self: flex-end;
+}
+
+.center-sec1::after {
     content: "";
     display: table;
     clear: both;
@@ -566,8 +631,8 @@ h3 {
         gap: 20px;
     }
 
-    .section1 img {
-        transform: translateY(0);
+    .center-sec1 img {
+        align-self: center;
     }
 }
 
@@ -766,6 +831,12 @@ h3 {
     justify-content: center;
     position: relative;
     align-items: center;
+  }
+
+  @media screen and (orientation: landscape){
+    .carousel {
+        min-height: 100vh;
+    }
   }
   
   /* Track contenant les slides */

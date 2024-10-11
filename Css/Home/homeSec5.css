@@ -179,6 +179,11 @@
         padding: 5px 15px;
     }
 
+    #sec5_gauche {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     #sec5_gauche p {
         text-align: center;
         font-size: 2em;

@@ -75,6 +75,7 @@ body {
 }
 
 nav {
+    position: absolute;
     width: 100%;
     z-index: 1;
 }
@@ -437,7 +438,7 @@ nav ul::after {
 }
 
 .div-form {
-    height: 0;
+    min-height: 0;
     opacity: 0;
     max-width: 400px;
     width: 80%;
@@ -454,12 +455,16 @@ nav ul::after {
 }
 
 .div-form.unroll {
-    height: 85vh;
+    min-height: 85vh;
     opacity: 1;
 }
 
 form.unroll * {
     opacity: 1;
+}
+
+form.unroll {
+    min-height: 70vh;
 }
 
 form {
@@ -468,7 +473,7 @@ form {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    height: 80%;
+    min-height: 0;
 }
 
 form * {
@@ -655,10 +660,19 @@ form button:active {
         text-align: center;
       }
 
+      form button {
+        bottom: 20px;
+    }
+
       .div-form {
         transform: translateX(50%);
         right: 50%;
       }
+
+      .div-form.unroll {
+        min-height: 75vh;
+        opacity: 1;
+}
 
       .div-form.unroll.back {
         z-index: -1;
@@ -677,8 +691,8 @@ form button:active {
         height: 75vh;
     }
 
-    form button {
-        bottom: 50px;
+    form.unroll {
+        min-height: 60vh;
     }
 
     .foot > * {
@@ -688,10 +702,18 @@ form button:active {
 
 @media screen and (width <= 800px) {
 
+    #map {
+        position: relative;
+      }  
+
     .div-form.unroll {
-        height: 70vh;
+        min-height: 85vh;
         max-width: 350px;
         width: 80%;
+    }
+
+    form button {
+        bottom: 50px;
     }
 
     .foot {
@@ -699,6 +721,7 @@ form button:active {
         height: auto;
         gap: 10px;
         transition: .5s ease;
+        position: relative;
     }
 
     .foot.back {
@@ -709,8 +732,8 @@ form button:active {
 
 @media screen and (width <= 640px) {
 
-    form button {
-        bottom: 20px;
+    .stack {
+        width: 30px;
     }
 
     .stack::after {
@@ -728,7 +751,21 @@ form button:active {
         z-index: -1;
     }
 
+    .foot {
+        flex-direction: column;
+    }
+
     .map-contact {
         font-size: 1.5em;
+      }
+
+      .socials-links {
+        align-self: center;
+        margin-bottom: 25px;
+      }
+
+      .follow {
+        align-self: center;
+        margin-bottom: 45px;
       }
 }

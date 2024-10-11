@@ -207,8 +207,9 @@
     }
 
     #div_all_services_sec1 {
-        display: block;
-        align-content: center;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .div_services_sec1 {
@@ -247,6 +248,8 @@
 
     #sec1_gauche {
         gap: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .div_services_sec1 {
@@ -255,5 +258,20 @@
 
     #sec1_droite p {
         font-size: 1.2em;
+    }
+}
+
+@media screen and (width <= 640px) {
+    #div_all_services_sec1 {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        height: auto;
+    }
+
+    #sec1_gauche {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }

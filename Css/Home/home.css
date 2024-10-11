@@ -750,6 +750,9 @@ nav ul::after {
     margin: auto;
     background: url('imgs/cosite.png') center no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .profil:hover {
@@ -758,12 +761,8 @@ nav ul::after {
 
 .profil img {
     border-radius: 50%;
-    width: 350px;
+    width: 100%;
     aspect-ratio: 1/1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     z-index: 2;
 }
 
@@ -905,20 +904,15 @@ nav ul::after {
     }
 
     #head-right img {
-        width: 250px;
-        transition: .5s linear;
+        transition: none
     }
 
     .profil {
-        width: 250px;
+        width: 350px;
     }
 
     .profil:hover {
-        transform: scale(1.2);
-    }
-
-    #head-right img:hover {
-        transform: scale(1);
+        transform: none;
     }
 
     #head_bottom {
@@ -935,10 +929,6 @@ nav ul::after {
     #back_hleft {
         gap: 50px;
     }
-
-    #head-right img {
-        width: 350px;
-    } 
 
     .profil {
         width: 350px;
@@ -958,10 +948,6 @@ nav ul::after {
     #head-left h2 {
         font-size: 1.8em;  
         text-align: center;
-    }
-
-    #head-right img {
-        width: 250px;
     }
 
     .profil {
@@ -1011,6 +997,42 @@ nav ul::after {
     
 }
 
+@media screen and (max-width: 640px) {
+    .stack {
+        width: 30px;
+    }
+
+    .profil {
+        width: 200px;
+        margin: 0;
+    }
+
+    .profil::after,  .profil::before {
+        padding: 5px;
+    }
+
+    #head-back {
+        padding-top: 10vh;
+    }
+
+    #back_hleft p {
+        margin-top: 0;
+    }
+
+    #back_hleft p:nth-of-type(3) {
+        margin-top: 20px;
+    }
+    
+    #back_hleft ul {
+        margin-bottom: 0px;
+    }
+
+    #back_hleft {
+        gap: 10px;
+    }
+
+}
+
 #barre_etat_body {
     border-width: 2px;
     border-color: var(--cyan-border-s);
@@ -1027,9 +1049,9 @@ nav ul::after {
 
 
 footer {
-    border-width: 1px;
-    border-color: var(--cyan-border-h);
-    border-style: solid;
+    border-top-width: 1px;
+    border-top-color: var(--cyan-border-h);
+    border-top-style: solid;
     background-color: var(--bg-cyan-soft);
     height: 30vh;
     align-content: center;
