@@ -22,11 +22,8 @@ nav_links.forEach(link => {
 //////////////////////////////////////////////////////
 
 // Sélectionner tous les éléments que tu souhaites observer
-const leftElements = document.querySelectorAll('.left-hidden-element');
 const liteLeftElements = document.querySelectorAll('.lite-left-hidden-element');
-const rightElements = document.querySelectorAll('.right-hidden-element');
 const liteRightElements = document.querySelectorAll('.lite-right-hidden-element');
-const bottomElements = document.querySelectorAll('.bottom-hidden-element');
 const liteBottomElements = document.querySelectorAll('.lite-bottom-hidden-element');
 const liteTopElements = document.querySelectorAll('.lite-top-hidden-element');
 
@@ -50,20 +47,10 @@ const observer = new IntersectionObserver((entries, observer) => {
   threshold: 0.1 // L'élément doit être au moins 10% visible avant d'être déclenché
 });
 
-// Appliquer l'observer à chaque élément
-leftElements.forEach(element => {
-  observer.observe(element);
-}
-);
-
 liteLeftElements.forEach(element => {
     observer.observe(element);
   }
   );
-
-rightElements.forEach(element => {
-    observer.observe(element);
-  });
 
   liteRightElements.forEach(element => {
     observer.observe(element);
@@ -87,10 +74,6 @@ rightElements.forEach(element => {
     });
   }, {
     threshold: 0.01 // L'élément doit être au moins 10% visible avant d'être déclenché
-  });
-
-  bottomElements.forEach(element => {
-    bottom_observer.observe(element);
   });
 
   liteBottomElements.forEach(element => {

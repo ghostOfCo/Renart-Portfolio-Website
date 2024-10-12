@@ -73,21 +73,9 @@ main {
     overflow: hidden;
 }
 
-.left-hidden-element {
-    opacity: 0;
-    transform: translateX(-50vw); /* Déplace vers le bas pour l'effet de transition */
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
-  }
-
   .lite-left-hidden-element {
     opacity: 0;
     transform: translateX(-100px); /* Déplace vers le bas pour l'effet de transition */
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
-  }
-
-  .right-hidden-element {
-    opacity: 0;
-    transform: translateX(800px); /* Déplace vers le bas pour l'effet de transition */
     transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   }
 
@@ -100,13 +88,6 @@ main {
   .visible {
     opacity: 1;
     transform: translateX(0); /* Remet en place */
-  }
-
-
-  .bottom-hidden-element {
-    opacity: 0;
-    transform: translateY(10%); /* Déplace vers le bas pour l'effet de transition */
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   }
 
   .lite-bottom-hidden-element {
@@ -1002,6 +983,10 @@ nav ul::after {
         width: 30px;
     }
 
+    #head_bottom {
+        text-align: center;
+    }
+
     .profil {
         width: 200px;
         margin: 0;
@@ -1056,7 +1041,9 @@ footer {
     border-top-style: solid;
     background-color: var(--bg-cyan-soft);
     height: 30vh;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer p {

@@ -236,6 +236,14 @@ strong {
 
 @media screen and (width <= 800px) {
 
+    #div_all_services_sec1 {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        height: auto;
+    }
+
     #div_centre_sec1 {
         gap: 20px;
     }
@@ -266,13 +274,13 @@ strong {
 }
 
 @media screen and (width <= 640px) {
-    #div_all_services_sec1 {
+    /* #div_all_services_sec1 {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         gap: 0;
         height: auto;
-    }
+    } */
 
     #sec1_gauche {
         padding-left: 20px;
