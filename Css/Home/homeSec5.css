@@ -119,6 +119,7 @@
 
 #sec5_droite {
     grid-column: 2/3;
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,6 +147,7 @@
 
 
     #div_centre_sec5 {
+        display: -webkit-flex;
         display: flex;
         flex-direction: column;
     }

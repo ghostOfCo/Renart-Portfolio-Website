@@ -115,6 +115,7 @@ strong {
 
 #div_all_services_sec1 {
     grid-row: 2/3;
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -146,6 +147,7 @@ strong {
 }
 
 #sec1_droite {
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -188,6 +190,7 @@ strong {
 
 #btn_voirplus_sec1:active {
     box-shadow: 0px 0px 7px 0px var(--cyan-interactiveComp-s);
+    -webkit-transform: scale(0.95);
     transform: scale(0.95);
 }
 
@@ -198,6 +201,7 @@ strong {
     }
 
     #div_centre_sec1 {
+        display: -webkit-flex;
         display: flex;
         flex-direction: column;
         justify-content: center;

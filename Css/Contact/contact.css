@@ -133,7 +133,9 @@ nav ul li {
     box-shadow: 0px 10px 15px 0px var(--cyan-interactiveComp-s);
     z-index: 3;
     left: 50%;
+    -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
@@ -145,6 +147,7 @@ nav ul li {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 10px;
+    display: -webkit-flex;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -176,6 +179,7 @@ nav ul li {
 }
 
 .dropdown-services:hover .dropdown-services-content {
+    display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -200,6 +204,7 @@ nav ul li {
     border-radius: 10px;
     box-shadow: 0px 10px 15px 0px var(--cyan-interactiveComp-s);
     z-index: 3;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
@@ -228,6 +233,7 @@ nav ul li a, .dropdown-content a {
 
 #dc-first {
     border-radius: 10px 10px 0 0;
+    display: -webkit-flex;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -247,6 +253,7 @@ nav ul li a, .dropdown-content a {
 
 #dc-last {
     border-radius: 0 0 10px 10px;
+    display: -webkit-flex;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -335,6 +342,7 @@ nav ul li a:active {
     border-radius: 10px;
     box-shadow: 5px 10px 15px 0px var(--cyan-interactiveComp-s);
     z-index: 3;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
@@ -357,6 +365,7 @@ nav ul li a:active {
     border-radius: 10px;
     box-shadow: 5px 10px 15px 0px var(--cyan-interactiveComp-s);
     z-index: 3;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
@@ -382,6 +391,7 @@ nav ul li a:active {
 
 #hire:active {
     box-shadow: 0px 0px 7px 0px var(--cyan-interactiveComp-s);
+    -webkit-transform: scale(0.95);
     transform: scale(0.95);
 }
 
@@ -413,6 +423,7 @@ nav ul li a:active {
 }
 
 .stack.active #stack_t {
+    -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     top: calc(50% - 2px);
 }
@@ -422,6 +433,7 @@ nav ul li a:active {
 }
 
 .stack.active #stack_b {
+    -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     bottom: calc(50% - 2px);
 }
@@ -457,6 +469,7 @@ nav ul::after {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 0 0 5px 0 var(--cyan-interactiveComp-h);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     transition: .5s ease-out;
 }
@@ -476,6 +489,7 @@ form.unroll {
 }
 
 form {
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -571,6 +585,7 @@ form button:active {
     left: 0;
     width: 100%;
     background-color: var(--bg-cyan);
+    display: -webkit-flex;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -595,6 +610,7 @@ form button:active {
   }
 
   .socials img {
+    -webkit-transform: scale(.6);
     transform: scale(.6);
   }
 
@@ -609,11 +625,14 @@ form button:active {
     nav {
         width: 100%;
         background-color: var(--bg-cyan-soft);
+        -webkit-transform: translateY(-800px);
         transform: translateY(-800px);
+        transition: -webkit-transform 0.6s ease-out;
         transition: transform 0.6s ease-out;
     }
 
     nav.active {
+        -webkit-transform: translateY(0);
         transform: translateY(0);
     }
 
@@ -673,6 +692,7 @@ form button:active {
     }
 
       .div-form {
+        -webkit-transform: translateX(50%);
         transform: translateX(50%);
         right: 50%;
       }
@@ -719,6 +739,7 @@ form button:active {
         height: 85vh;
         max-width: 350px;
         width: 80%;
+        display: -webkit-flex;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -759,6 +780,7 @@ form button:active {
         height: 100%;
         top: 50%;
         left: 50%;
+        -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         background-color: var(--bg-cyan-soft);
         box-sizing: content-box;
