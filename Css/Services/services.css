@@ -122,6 +122,20 @@ main {
     overflow-x: hidden;
 }
 
+#language-select {
+    font-family: "nunito", sans-serif;
+    padding: 5px 15px;
+    background: var(--bg-cyan-soft);
+    color: var(--links-text-cyan);
+    border-radius: 30px;
+    border-color: var(--cyan-border-s);
+    font-size: 1.3em;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 nav {
     width: 100%;
     z-index: 3;
@@ -499,6 +513,12 @@ nav ul::after {
 
 @media screen and (max-width: 1280px) {
 
+
+    #li_select {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     nav {
         width: 100%;
@@ -1019,6 +1039,10 @@ section:not(.sec1) .centre h2, section:not(.sec1) .centre h3 {
 }
 
 @media screen and (max-width: 640px){
+
+    .section7 h1 {
+     font-size: 3em;
+}
 
     .datas p {
         height: 250px;

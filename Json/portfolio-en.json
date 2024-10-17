@@ -1,0 +1,52 @@
+[
+    {
+        "nav_links_1" : "Home",
+    
+            "serv_links_1" : "Web & Desktop Application Development",
+            "serv_links_2" : "Website creation",
+            "serv_links_3" : "Logo designs and concepts",
+            "serv_links_4" : "Creation of event posters",
+            "serv_links_5" : "Ui / UX Design",
+    
+                "des_links_1" : "Latest",
+    
+            "port_links_2" : "Codes projects",
+                "code_links_1" : "Latest",
+                "code_links_2" : "Web project",
+                "code_links_3" : "Desktop",
+    
+        "nav_links_5" : "Hire me",
+        "nav_links_6" : "About"
+    },
+
+    {
+        "sec1_h2" : "Code projects",
+        "sec1_h3" : "Latest",
+        "sec1_p" : "Sleek and Responsive Design: With a mobile-first approach, the website adapts seamlessly to different screen sizes, providing an optimized experience for every user. Dynamic Content: JavaScript brings the site to life with interactive elements, smooth animations, and real-time data updates, making browsing a truly engaging experience. Fast Loading & Optimized Performance: I prioritized speed and efficiency, ensuring the website loads quickly without compromising on design or functionality.    Want to know more? <a href=\"./contact.html\">Contact me</a> for a walkthrough or let’s discuss how I can bring your ideas to life with custom web solutions. Don’t miss out."
+    },
+
+    {
+        "sec2_h3" : "Web projects",
+        "sec2_p" : "This dynamic portfolio site is a showcase of my work, combining sleek design with interactive elements. Built with HTML, CSS, and JavaScript, it’s fully responsive, ensuring a seamless experience across all devices. With smooth animations and engaging visuals, this site not only presents my skills but also highlights my approach to web development. Take a Tour! Explore my projects and see the impact of effective design and development. <a href=\"./index.html\">Check it out now</a> and let’s discuss how we can bring your vision to life!"
+    },
+
+    {
+        "sec3_h3" : "Desktop",
+        "sec3_p" : "Coming Soon"
+    },
+
+    {
+        "sec4_h2" : "Designs",
+        "sec4_h3" : "Latest"
+    },
+
+    {
+        "sec5_h3" : "Logos",
+        "sec5_p" : "<span>Distinctive Logo Designs for Impactful Branding Step into a collection of unique and compelling logo designs that tell each brand’s story with style and precision. My approach to logo creation goes beyond aesthetics. I craft visual identities that resonate, capturing the essence of each brand. From minimalist elegance to bold statements, every logo is designed to leave a lasting impression.                 Discover the Difference! Browse through my portfolio to see how these logos bring brands to life. Imagine what we can create together. Ready to make your brand unforgettable? <a href=\"./contact.html\">Let’s get started!</a></span>"
+    },
+
+    {
+        "sec6_h3" : "Posters",
+        "sec6_p" : "Eye-Catching Poster Designs for Memorable Events Explore a collection of vibrant and dynamic poster designs crafted to capture attention and convey powerful messages. Each poster is designed with a deep understanding of the event’s theme and audience, ensuring a visual impact that resonates. From bold typography to striking visuals, my posters are built to stand out and make any event unforgettable.                 Take a Closer Look! Imagine the possibilities for your next project. Ready to make your event unforgettable? <a href=\"./contact.html\">Let’s create together!</a>"
+    }
+]

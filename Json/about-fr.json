@@ -1,0 +1,39 @@
+[
+    {
+        "nav_links_1" : "Acceuil",
+    
+            "serv_links_1" : "Développement d'applications web et bureau",
+            "serv_links_2" : "Création de sites web",
+            "serv_links_3" : "Conception et design de logos",
+            "serv_links_4" : "Création d'affiches d'évènement",
+            "serv_links_5" : "Design Ui / UX",
+    
+                "des_links_1" : "Récents",
+    
+            "port_links_2" : "Projets de code",
+                "code_links_1" : "Récents",
+                "code_links_2" : "Projets web",
+                "code_links_3" : "Bureau",
+    
+        "nav_links_5" : "M'embaucher",
+        "nav_links_6" : "A propos"
+    },
+
+    {
+        "sec1_h1" : "Sur moi",
+        "sec1_a" : "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><g fill=\"none\" stroke=\"#F5B91D\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path fill=\"#1D180F\" fill-opacity=\"0\" stroke-dasharray=\"20\" stroke-dashoffset=\"20\" d=\"M12 4h2v6h2.5l-4.5 4.5M12 4h-2v6h-2.5l4.5 4.5\"><animate attributeName=\"d\" begin=\"0.5s\" dur=\"1.5s\" repeatCount=\"indefinite\" values=\"M12 4h2v6h2.5l-4.5 4.5M12 4h-2v6h-2.5l4.5 4.5;M12 4h2v3h2.5l-4.5 4.5M12 4h-2v3h-2.5l4.5 4.5;M12 4h2v6h2.5l-4.5 4.5M12 4h-2v6h-2.5l4.5 4.5\"/><animate fill=\"freeze\" attributeName=\"fill-opacity\" begin=\"0.7s\" dur=\"0.15s\" values=\"0;0.3\"/><animate fill=\"freeze\" attributeName=\"stroke-dashoffset\" dur=\"0.4s\" values=\"20;0\"/></path><path stroke-dasharray=\"14\" stroke-dashoffset=\"14\" d=\"M6 19h12\"><animate fill=\"freeze\" attributeName=\"stroke-dashoffset\" begin=\"0.5s\" dur=\"0.2s\" values=\"14;0\"/></path></g></svg> CV",
+        "sec1_topic" : "Je suis <span>LAWSON Têvi Cornélius,</span> graphiste/développeur",
+        "sec1_bio" : "Développeur et Designer J'ai débuté dans le domaine du freelance, et j'ai suivi bon nombre de formations sur des sites et plateformes renommées, notamment : Udemy, Openclassroom, Alphorm.",
+        "numbers_1_p2" : "années d'expérience",
+        "numbers_2_p2" : "projets terminés",
+        "numbers_3_p2" : "compétences techniques",
+        "numbers_4_p2" : "codes commit",
+        "my_works_h1" : "Ce que je fais?",
+        "works_p1" : "<span>Conception graphique</span>Je me spécialise dans la création de designs visuellement attrayants qui communiquent et inspirent. Des logos aux affiches, mon travail donne vie aux idées avec créativité et détermination, laissant une impression durable sur n'importe quel public.",
+        "works_p2" : "<span>Développement Web</span>Je crée des sites Web modernes et conviviaux qui allient fonctionnalité et esthétique. Mon expertise en développement Web garantit des expériences fluides et réactives qui engagent les utilisateurs et valorisent les marques en ligne.",
+        "works_p3" : "<span>Développement d'applications</span>Je conçois et développe des applications qui privilégient l'expérience utilisateur, en combinant fonctionnalité et interfaces intuitives. Qu'elles soient web ou mobiles, mes applications sont conçues pour engager, performer et s'adapter aux besoins des utilisateurs.",
+        "sec2_h1" : "Compétences",
+        "sec2_p1" : "Logiciels et technologies",
+        "sec2_p2" : "Langages de programmation"
+    }
+]

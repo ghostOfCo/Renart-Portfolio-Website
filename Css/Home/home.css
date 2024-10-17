@@ -148,6 +148,20 @@ nav {
     z-index: 1;
 }
 
+#language-select {
+    font-family: "nunito", sans-serif;
+    padding: 5px 15px;
+    background: var(--bg-cyan-soft);
+    color: var(--links-text-cyan);
+    border-radius: 30px;
+    border-color: var(--cyan-border-s);
+    font-size: 1.3em;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 nav ul {
     list-style-type: none;
     text-align: center;
@@ -794,6 +808,12 @@ nav ul::after {
 }
 
 @media screen and (width <= 1280px) {
+
+    #li_select {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     nav {
         width: 100%;

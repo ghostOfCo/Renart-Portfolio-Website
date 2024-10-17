@@ -1,0 +1,31 @@
+[
+    {
+        "nav_links_1" : "Acceuil",
+    
+            "serv_links_1" : "Développement d'applications web et bureau",
+            "serv_links_2" : "Création de sites web",
+            "serv_links_3" : "Conception et design de logos",
+            "serv_links_4" : "Création d'affiches d'évènement",
+            "serv_links_5" : "Design Ui / UX",
+    
+                "des_links_1" : "Récents",
+    
+            "port_links_2" : "Projets de code",
+                "code_links_1" : "Récents",
+                "code_links_2" : "Projets web",
+                "code_links_3" : "Bureau",
+    
+        "nav_links_5" : "M'embaucher",
+        "nav_links_6" : "A propos"
+    },
+
+    {
+        "form" : "<input type=\"text\" placeholder=\"Nom\" name=\"name\" id=\"name\" required> <input type=\"email\" placeholder=\"E-mail\" name=\"email\" id=\"email\" required> <input type=\"tel\" placeholder=\"Téléphone\" name=\"phone\" id=\"phone\" required> <textarea name=\"message\" placeholder=\"Message\" id=\"message\" required></textarea> <button type=\"submit\">Envoyer le message</button>",
+        "map_p" : "Contactez-nous",
+        "foot_adress_title" : "Notre adresse",
+        "foot_city" : "Lomé",
+        "foot_area" : "Carrefour DVA",
+        "foot_contact_title" : "Nos coordonnées",
+        "foot_follow" : "Suivez-nous"
+    }
+]

@@ -14,59 +14,65 @@
                 <div class="logo">
                     <img loading="lazy" src="./imgs/logo_renart_trans.webp" alt="logo du site">
                 </div>
-                <li><a class="nav_links" href="./index.html">Home</a></li>
+                <li id="li_select">
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="fr">Français</option>
+                      </select>
+                </li>
+                <li><a class="nav_links" href="./index.html" id="nav_links_1">Home</a></li>
                 <li class="dropdown-services">
-                    <a class="nav_links" href="./services.html">Services</a>
+                    <a class="nav_links" href="./services.html" id="nav_links_2">Services</a>
                     <div class="dropdown-services-content"> 
                         <div>
                             <a href="./services.html#ancreSec2" id="dsc-first" >
                                 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 24 24"><defs><path id="eosIconsApplicationOutlined0" fill="#FFE7B3" d="m9 18l.7-.7l.7-.7l-1.3-1.3L7.8 14l1.3-1.3l1.3-1.3l-.7-.7L9 10l-2 2l-2 2l2 2zm4.6-1.4l.7.7l.7.7l2-2l2-2l-2-2l-2-2l-.7.7l-.7.7l1.3 1.3l1.3 1.3l-1.3 1.3z"/></defs><path fill="#FFE7B3" d="M1 3v2h22V3a2 2 0 0 0-2-2H3a2 2 0 0 0-2 2m3.007 1.008a1 1 0 1 1 .999-1a1 1 0 0 1-1 1m2.997-.001a1 1 0 1 1 1-1a1 1 0 0 1-1 1M1 6v14a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6Zm20 14H3V8h18Z"/><use href="#eosIconsApplicationOutlined0"/><use href="#eosIconsApplicationOutlined0"/></svg>
-                                <span>Web & Desktop Application Development</span>
+                                <span id="serv_links_1">Web & Desktop Application Development</span>
                             </a>
                         </div>  
                         <div>
                             <a href="./services.html#ancreSec3" >
                                 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 24 24"><g fill="#FFE7B3"><path fill-rule="evenodd" d="M14 7a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1zm3 2h-2v6h2z" clip-rule="evenodd"/><path d="M6 7a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2zm0 4a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2zm-1 5a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1"/><path fill-rule="evenodd" d="M4 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3zm16 2H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1" clip-rule="evenodd"/></g></svg>
-                                <span>Website creation</span>
+                                <span id="serv_links_2">Website creation</span>
                             </a>
                         </div> 
                         <div>
                             <a href="./services.html#ancreSec4" >
                                 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 20 20"><path fill="#FFE7B3" d="M4.58 2.125a.5.5 0 0 1 .12.598a.3.3 0 0 0-.013.09c0 .063.016.183.167.333c.073.073.129.125.19.182c.05.046.103.094.17.16c.13.124.267.27.39.453c.255.383.396.862.396 1.559C6 6.97 5.023 8 4 8S2 6.97 2 5.5c0-.326.087-.715.207-1.074s.288-.732.482-1.032c.231-.39.556-.717.808-.937a6 6 0 0 1 .432-.343l.044-.03a.5.5 0 0 1 .608.041M4 9a2.68 2.68 0 0 0 1.68-.595q.071.211.12.425c.2.87.2 1.916.2 2.645v.025c0 2.787-.379 4.368-.796 5.272c-.21.455-.433.745-.626.927a1.5 1.5 0 0 1-.258.198a1 1 0 0 1-.133.067S4.074 18 4 18s-.187-.036-.187-.036a1 1 0 0 1-.133-.067a1.5 1.5 0 0 1-.258-.198c-.193-.183-.416-.472-.626-.927C2.379 15.868 2 14.287 2 11.5v-.025c0-.73 0-1.775.2-2.645q.049-.214.12-.425A2.68 2.68 0 0 0 4 9m5 4c-.715 0-1.396-.15-2.01-.42q.02-.534.02-1.11A4 4 0 0 0 9 12v-2a2 2 0 0 1 2-2h2a4 4 0 0 0-6.082-3.416a3.3 3.3 0 0 0-.338-.96A5 5 0 0 1 14 8h2a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-5a2 2 0 0 1-2-2zm4.9-4a5.01 5.01 0 0 1-3.9 3.9V15a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1zm-1.026 0H11a1 1 0 0 0-1 1v1.874A4.01 4.01 0 0 0 12.874 9"/></svg>
-                                <span>Logo designs and concepts</span>
+                                <span id="serv_links_3">Logo designs and concepts</span>
                             </a>
                         </div>
                         <div>
                             <a href="./services.html#ancreSec5" >
                                 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 24 24"><path fill="#FFE7B3" d="m9 4l2.5 5.5L17 12l-5.5 2.5L9 20l-2.5-5.5L1 12l5.5-2.5zm0 4.83L8 11l-2.17 1L8 13l1 2.17L10 13l2.17-1L10 11zM19 9l-1.26-2.74L15 5l2.74-1.25L19 1l1.25 2.75L23 5l-2.75 1.26zm0 14l-1.26-2.74L15 19l2.74-1.25L19 15l1.25 2.75L23 19l-2.75 1.26z"/></svg>
-                                <span>Creation of event posters</span>
+                                <span id="serv_links_4">Creation of event posters</span>
                             </a>
                         </div>       
                         <div>
                             <a href="./services.html#ancreSec6" id="dsc-last" >
                                 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 32 32"><path fill="#FFE7B3" d="M30 24v-2h-2.101a5 5 0 0 0-.732-1.753l1.49-1.49l-1.414-1.414l-1.49 1.49A5 5 0 0 0 24 18.101V16h-2v2.101a5 5 0 0 0-1.753.732l-1.49-1.49l-1.414 1.414l1.49 1.49A5 5 0 0 0 18.101 22H16v2h2.101a5 5 0 0 0 .732 1.753l-1.49 1.49l1.414 1.414l1.49-1.49a5 5 0 0 0 1.753.732V30h2v-2.101a5 5 0 0 0 1.753-.732l1.49 1.49l1.414-1.414l-1.49-1.49A5 5 0 0 0 27.899 24Zm-7 2a3 3 0 1 1 3-3a3.003 3.003 0 0 1-3 3"/><path fill="#FFE7B3" d="M28 4H4a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h10v-2H4V12h24v3h2V6a2 2 0 0 0-2-2m0 6H4V6h24Z"/><circle cx="20" cy="8" r="1" fill="#FFE7B3"/><circle cx="23" cy="8" r="1" fill="#FFE7B3"/><circle cx="26" cy="8" r="1" fill="#FFE7B3"/></svg>
-                                <span>Ui / UX Design</span>
+                                <span id="serv_links_5">Ui / UX Design</span>
                             </a>
                         </div>
                     </div>
                 </li>
                 <li class="dropdown">
-                    <a class="nav_links" href="./portfolio.html">Portfolio</a>
+                    <a class="nav_links" href="./portfolio.html" id="nav_links_3">Portfolio</a>
                     <div class="dropdown-content"> 
                         <div class="dropdown-design" >
                             <a href="./portfolio.html#ancreDes" id="dc-first" >
                                 <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 24 24"><g fill="none" stroke="#FFE7B3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="m17.674 11.408l-1.905 5.716a.6.6 0 0 1-.398.385L3.693 20.981a.6.6 0 0 1-.74-.765L6.745 8.842a.6.6 0 0 1 .34-.365l5.387-2.218a.6.6 0 0 1 .653.13l4.404 4.405a.6.6 0 0 1 .145.614M3.296 20.602l6.364-6.364"/><path fill="#FFE7B3" d="m18.403 3.182l2.364 2.364a1.846 1.846 0 1 1-2.61 2.61l-2.365-2.364a1.846 1.846 0 0 1 2.61-2.61"/><path d="M11.781 12.116a1.5 1.5 0 1 0-2.121 2.121a1.5 1.5 0 0 0 2.121-2.121"/></g></svg>
-                                <span>Designs</span>
+                                <span id="port_links_1">Designs</span>
                             </a>
                             <div class="dropdown-design-content"> 
                                 <div>
                                     <a href="./portfolio.html#ancreDesLatest" id="ddc-first" >Latest</a>
                                 </div>     
                                 <div>
-                                    <a href="./portfolio.html#ancreDesLogos">Logos</a>
+                                    <a href="./portfolio.html#ancreDesLogos" id="des_links_2">Logos</a>
                                 </div> 
                                 <div>
-                                    <a href="./portfolio.html#ancreDesPosters">Posters</a>
+                                    <a href="./portfolio.html#ancreDesPosters" id="des_links_3">Posters</a>
                                 </div>
                                 <!-- <div>
                                     <a href="#" id="ddc-last" >All designs</a>
@@ -76,17 +82,17 @@
                         <div class="dropdown-code" >
                             <a href="./portfolio.html#ancreCd" id="dc-last" >
                                 <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 24 24"><g fill="none" stroke="#FFE7B3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="#FFE7B3"><path d="M20 10.128c0-3.832 0-5.747-1.172-6.938S15.771 2 12 2h-2C6.229 2 4.343 2 3.172 3.19S2 6.296 2 10.128s0 5.747 1.172 6.938c.47.477 1.054.763 1.828.934"/><path d="M22 17.5c0-1.875 0-2.812-.477-3.47a2.5 2.5 0 0 0-.553-.553C20.312 13 19.375 13 17.5 13h-5c-1.875 0-2.812 0-3.47.477a2.5 2.5 0 0 0-.553.553C8 14.689 8 15.626 8 17.5s0 2.812.477 3.47a2.5 2.5 0 0 0 .554.553C9.688 22 10.625 22 12.5 22h5c1.875 0 2.812 0 3.47-.477a2.5 2.5 0 0 0 .553-.553C22 20.312 22 19.375 22 17.5"/><path d="m16.5 16l.92.793c.387.333.58.5.58.707s-.193.374-.58.707L16.5 19m-3-3l-.92.793c-.387.333-.58.5-.58.707s.193.374.58.707l.92.793M2.5 6h17"/></g></svg>
-                                <span>Codes projects</span>
+                                <span id="port_links_2">Codes projects</span>
                             </a>
                             <div class="dropdown-code-content"> 
                                 <div>
                                     <a href="./portfolio.html#ancreCdLatest" id="dcc-first" >Latest</a>
                                 </div>     
                                 <div>
-                                    <a href="./portfolio.html#ancreCdWebP">Web project</a>
+                                    <a href="./portfolio.html#ancreCdWebP" id="code_links_2">Web project</a>
                                 </div> 
                                 <div>
-                                    <a href="./portfolio.html#ancreCdDesktop">Desktop</a>
+                                    <a href="./portfolio.html#ancreCdDesktop" id="code_links_3">Desktop</a>
                                 </div>
                                 <!-- <div>
                                     <a href="#" id="dcc-last" >All code projects</a>
@@ -95,9 +101,9 @@
                         </div>
                     </div>
                 </li>
-                <li><a class="nav_links" href="./contact.html">Contact</a></li>
+                <li><a class="nav_links" href="./contact.html" id="nav_links_4">Contact</a></li>
                 <li><a id="hire" href="mailto:workandworkspace@gmail.com?subject=Your%20Subject&body=Your%20message%20here">Hire me</a></li>
-                <li id="end-ul"><a class="actif nav_links" href="#">About</a></li>
+                <li id="end-ul"><a class="actif nav_links" href="#" id="nav_links_6">About</a></li>
             </ul>
             
         </nav>
@@ -113,12 +119,12 @@
                     <div class="lite-left-hidden-element profil">
                         <img src="./imgs/cosite.webp" alt="profil">
                     </div>
-                    <a class="resume lite-right-hidden-element" href="../docs/CV pdf.pdf">
+                    <a class="resume lite-right-hidden-element" href="../docs/CV pdf.pdf" id="sec1_a">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="#F5B91D" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path fill="#1D180F" fill-opacity="0" stroke-dasharray="20" stroke-dashoffset="20" d="M12 4h2v6h2.5l-4.5 4.5M12 4h-2v6h-2.5l4.5 4.5"><animate attributeName="d" begin="0.5s" dur="1.5s" repeatCount="indefinite" values="M12 4h2v6h2.5l-4.5 4.5M12 4h-2v6h-2.5l4.5 4.5;M12 4h2v3h2.5l-4.5 4.5M12 4h-2v3h-2.5l4.5 4.5;M12 4h2v6h2.5l-4.5 4.5M12 4h-2v6h-2.5l4.5 4.5"/><animate fill="freeze" attributeName="fill-opacity" begin="0.7s" dur="0.15s" values="0;0.3"/><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="20;0"/></path><path stroke-dasharray="14" stroke-dashoffset="14" d="M6 19h12"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s" values="14;0"/></path></g></svg>
                         Resume</a>
                 </div>
-                <p class="topic lite-left-hidden-element">I'm <span>LAWSON Têvi Cornélius,</span> Graphic Designer / Developper</p>
-                <p class="bio lite-left-hidden-element">
+                <p class="topic lite-left-hidden-element" id="sec1_topic">I'm <span>LAWSON Têvi Cornélius,</span> Graphic Designer / Developper</p>
+                <p class="bio lite-left-hidden-element" id="sec1_bio">
                     Developer and Designer I started out in the freelance field, and I followed a good number
                     of courses on renowned sites and platforms, including: Udemy, Openclassroom, Alphorm.
                 </p>
@@ -126,36 +132,36 @@
                     <div class="numbers">
                         <div>
                             <p class="lite-left-hidden-element">04+</p>
-                            <p>years of experience</p>
+                            <p id="numbers_1_p2">years of experience</p>
                         </div>
                         <div>
                             <p class="lite-left-hidden-element">03+</p>
-                            <p>projects completed</p>
+                            <p id="numbers_2_p2">projects completed</p>
                         </div>
                         <div>
                             <p class="lite-left-hidden-element">07+</p>
-                            <p>technical skills</p>
+                            <p id="numbers_3_p2">technical skills</p>
                         </div>
                         <div>
                             <p class="lite-left-hidden-element">11+</p>
-                            <p>codes commited</p>
+                            <p id="numbers_4_p2">codes commited</p>
                         </div>
                     </div>
                     <div class="my-works">
-                        <h1 class="lite-left-hidden-element">What I Do?</h1>
+                        <h1 class="lite-left-hidden-element" id="my_works_h1">What I Do?</h1>
                         <div class="lite-right-hidden-element">
                             <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 24 24"><g fill="none" stroke="#FFCA16" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="m17.674 11.408l-1.905 5.716a.6.6 0 0 1-.398.385L3.693 20.981a.6.6 0 0 1-.74-.765L6.745 8.842a.6.6 0 0 1 .34-.365l5.387-2.218a.6.6 0 0 1 .653.13l4.404 4.405a.6.6 0 0 1 .145.614M3.296 20.602l6.364-6.364"/><path fill="#FFCA16" d="m18.403 3.182l2.364 2.364a1.846 1.846 0 1 1-2.61 2.61l-2.365-2.364a1.846 1.846 0 0 1 2.61-2.61"/><path d="M11.781 12.116a1.5 1.5 0 1 0-2.121 2.121a1.5 1.5 0 0 0 2.121-2.121"/></g></svg>
-                            <p><span>Graphic Design</span>I specialize in creating visually engaging designs that communicate and inspire. From logos to posters, my work brings ideas to life with creativity and purpose, leaving a lasting impression on any audience. 
+                            <p id="works_p1"><span>Graphic Design</span>I specialize in creating visually engaging designs that communicate and inspire. From logos to posters, my work brings ideas to life with creativity and purpose, leaving a lasting impression on any audience. 
                             </p>
                         </div>
                         <div class="lite-left-hidden-element">
                             <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 24 24"><g fill="none" stroke="#FFCA16" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" color="#FFCA16"><path d="M20 10.128c0-3.832 0-5.747-1.172-6.938S15.771 2 12 2h-2C6.229 2 4.343 2 3.172 3.19S2 6.296 2 10.128s0 5.747 1.172 6.938c.47.477 1.054.763 1.828.934"/><path d="M22 17.5c0-1.875 0-2.812-.477-3.47a2.5 2.5 0 0 0-.553-.553C20.312 13 19.375 13 17.5 13h-5c-1.875 0-2.812 0-3.47.477a2.5 2.5 0 0 0-.553.553C8 14.689 8 15.626 8 17.5s0 2.812.477 3.47a2.5 2.5 0 0 0 .554.553C9.688 22 10.625 22 12.5 22h5c1.875 0 2.812 0 3.47-.477a2.5 2.5 0 0 0 .553-.553C22 20.312 22 19.375 22 17.5"/><path d="m16.5 16l.92.793c.387.333.58.5.58.707s-.193.374-.58.707L16.5 19m-3-3l-.92.793c-.387.333-.58.5-.58.707s.193.374.58.707l.92.793M2.5 6h17"/></g></svg>
-                            <p><span>Web Developpement</span>I create modern, user-friendly websites that blend functionality with aesthetic appeal. My web development expertise ensures seamless, responsive experiences that engage users and elevate brands online.
+                            <p id="works_p2"><span>Web Developpement</span>I create modern, user-friendly websites that blend functionality with aesthetic appeal. My web development expertise ensures seamless, responsive experiences that engage users and elevate brands online.
                             </p>
                         </div>
                         <div class="lite-right-hidden-element">
                             <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 32 32"><path fill="#FFCA16" d="M26 2h4v4h-4zm0 6h4v4h-4zm-6-6h4v4h-4zm0 6h4v4h-4z"/><path fill="#FFCA16" d="M28 16v6H4V6h12V4H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h8v4H8v2h16v-2h-4v-4h8a2 2 0 0 0 2-2v-6ZM18 28h-4v-4h4Z"/></svg>
-                            <p><span>App Developpement</span>I design and develop apps that prioritize user experience, combining functionality with intuitive interfaces. Whether web or mobile, my apps are built to engage, perform, and adapt to users’ needs.
+                            <p id="works_p3"><span>App Developpement</span>I design and develop apps that prioritize user experience, combining functionality with intuitive interfaces. Whether web or mobile, my apps are built to engage, perform, and adapt to users’ needs.
                             </p>
                         </div>
                     </div>
@@ -179,8 +185,8 @@
             </div>
         </section>       
         <section id="ancreSec2" class="section2">
-            <h1 class="lite-right-hidden-element" >Skills</h1>
-            <p class="title lite-top-hidden-element">Software & Technology</p>
+            <h1 class="lite-right-hidden-element" id="sec2_h1">Skills</h1>
+            <p class="title lite-top-hidden-element" id="sec2_p1">Software & Technology</p>
             <div class="container">
                 <div class="element lite-left-hidden-element">
                     <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 256 256"><g fill="none"><rect width="256" height="256" fill="#001e36" rx="60"/><path fill="#31a8ff" d="M57.6 178.04V68.28c0-.747.32-1.173 1.067-1.173c1.813 0 3.52 0 5.973-.107c2.56-.107 5.227-.107 8.107-.213c2.88-.107 5.973-.107 9.28-.214c3.306-.106 6.506-.106 9.706-.106c8.747 0 16 1.066 21.974 3.306A38.1 38.1 0 0 1 128 78.52a34 34 0 0 1 7.787 12.16c1.6 4.48 2.453 9.067 2.453 13.867q0 13.76-6.4 22.72c-4.267 5.973-10.24 10.453-17.173 13.013c-7.254 2.667-15.254 3.627-24 3.627c-2.56 0-4.267 0-5.334-.107s-2.56-.107-4.586-.107v34.24c.106.747-.427 1.387-1.174 1.494H58.88c-.853 0-1.28-.427-1.28-1.387m23.253-90.347v35.84c1.494.107 2.88.214 4.16.214h5.654c4.16 0 8.32-.64 12.266-1.92c3.414-.96 6.4-2.987 8.747-5.654c2.24-2.666 3.307-6.293 3.307-10.986a17.56 17.56 0 0 0-2.454-9.494c-1.813-2.773-4.373-4.906-7.466-6.08c-3.947-1.6-8.214-2.24-12.587-2.133c-2.773 0-5.227 0-7.253.107c-2.134-.107-3.627 0-4.374.106M204.8 117.027c-3.2-1.707-6.613-2.88-10.24-3.627c-3.947-.853-7.893-1.387-11.947-1.387c-2.133-.106-4.373.214-6.4.747c-1.386.32-2.56 1.067-3.306 2.133c-.534.854-.854 1.92-.854 2.88s.427 1.92 1.067 2.774c.96 1.173 2.24 2.133 3.627 2.88a98 98 0 0 0 7.573 3.52c5.76 1.92 11.307 4.586 16.427 7.786c3.52 2.24 6.4 5.227 8.426 8.854c1.707 3.413 2.56 7.146 2.454 10.986c.106 5.014-1.387 10.027-4.16 14.187a26.73 26.73 0 0 1-11.947 9.493c-5.227 2.24-11.627 3.414-19.307 3.414c-4.906 0-9.706-.427-14.506-1.387a43 43 0 0 1-10.88-3.413c-.747-.427-1.28-1.174-1.174-2.027v-18.56c0-.32.107-.747.427-.96s.64-.107.96.107c4.16 2.453 8.533 4.16 13.227 5.226c4.053 1.067 8.32 1.6 12.586 1.6c4.054 0 6.934-.533 8.854-1.493c1.706-.747 2.88-2.56 2.88-4.48c0-1.493-.854-2.88-2.56-4.267c-1.707-1.386-5.227-2.986-10.454-5.013a65.3 65.3 0 0 1-15.146-7.68a27.6 27.6 0 0 1-8.107-9.067c-1.707-3.413-2.56-7.146-2.453-10.88c0-4.586 1.28-8.96 3.626-12.906c2.667-4.267 6.614-7.68 11.2-9.814c5.014-2.56 11.307-3.733 18.88-3.733c4.374 0 8.854.32 13.227.96c3.2.427 6.293 1.28 9.173 2.453c.427.107.854.534 1.067.96c.107.427.213.854.213 1.28v17.387c0 .427-.213.853-.533 1.067c-.96.213-1.493.213-1.92 0"/></g></svg>
@@ -271,7 +277,7 @@
                     </div>
                 </div>
             </div>
-            <p class="title lite-top-hidden-element">Programming Languages</p>
+            <p class="title lite-top-hidden-element" id="sec2_p2">Programming Languages</p>
             <div class="container2">
                 <div class="element lite-left-hidden-element">
                     <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 256 256"><g fill="none"><rect width="256" height="256" fill="#00599c" rx="60"/><path fill="#fff" d="M110.759 210.517C65.125 210.517 28 173.392 28 127.759C28 82.125 65.125 45 110.759 45c29.445 0 56.908 15.846 71.668 41.353l-35.816 20.726c-7.387-12.768-21.126-20.7-35.852-20.7c-22.817 0-41.38 18.563-41.38 41.38c0 22.816 18.563 41.379 41.38 41.379c14.727 0 28.466-7.932 35.854-20.702l35.816 20.725c-14.76 25.51-42.223 41.356-71.67 41.356"/><path fill="#fff" d="M193.517 123.161h-9.196v-9.196h-9.194v9.196h-9.196v9.195h9.196v9.196h9.194v-9.196h9.196zm34.483 0h-9.196v-9.196h-9.194v9.196h-9.196v9.195h9.196v9.196h9.194v-9.196H228z"/></g></svg>
@@ -334,6 +340,7 @@
     </main>
 
 
-    <script src="../Js/about.js"></script>
+    <script src="./Js/about.js"></script>
+    <script src="./Js/about-lang.js"></script>
 </body>
 </html>

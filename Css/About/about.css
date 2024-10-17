@@ -123,9 +123,23 @@ p, a {
     font-family: "open sans", sans-serif;
 }
 
-  main {
-    overflow-x: hidden;
-  }
+main {
+  overflow-x: hidden;
+}
+
+#language-select {
+  font-family: "nunito", sans-serif;
+  padding: 5px 15px;
+  background: var(--bg-amber-soft);
+  color: var(--links-text-amber);
+  border-radius: 30px;
+  border-color: var(--amber-border-s);
+  font-size: 1.3em;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 nav {
     width: 100%;
@@ -768,6 +782,12 @@ main {
 @media screen and (max-width: 1280px) {
 
 
+    #li_select {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     nav {
         width: 100%;
         background-color: var(--bg-amber-soft);
@@ -1115,5 +1135,9 @@ main {
 
     .section2 {
         padding: 20px;
+    }
+
+    .section2 h1 {
+        font-size: 2.5em;
     }
 }

@@ -1,0 +1,92 @@
+[
+    {
+        "nav_links_1" : "Acceuil",
+    
+            "serv_links_1" : "Développement d'applications web et bureau",
+            "serv_links_2" : "Création de sites web",
+            "serv_links_3" : "Conception et design de logos",
+            "serv_links_4" : "Création d'affiches d'évènement",
+            "serv_links_5" : "Design Ui / UX",
+    
+                "des_links_1" : "Récents",
+    
+            "port_links_2" : "Projets de code",
+                "code_links_1" : "Récents",
+                "code_links_2" : "Projets web",
+                "code_links_3" : "Bureau",
+    
+        "nav_links_5" : "M'embaucher",
+        "nav_links_6" : "A propos"
+    },
+
+    {
+        "sec1_top_h2" : "Découvrez ma gamme de services",
+        "sec1_top_p" : "Je propose une gamme complète de services créatifs et techniques conçus pour valoriser votre marque et donner vie à votre vision. Des applications innovantes aux designs captivants, découvrez comment je peux vous aider à atteindre vos objectifs.",
+        "sec1_bottom_h3_1" : "Développement d'applications Web et de bureau",
+        "sec1_bottom_p_1" : "Que vous ayez besoin d'une application Web puissante ou d'une solution de bureau transparente, je fournis des services de développement de bout en bout adaptés à vos besoins spécifiques.",
+        "sec1_bottom_h3_2" : "Création de site internet",
+        "sec1_bottom_p_2" : "De la conception au déploiement, je crée des sites Web visuellement époustouflants, réactifs et optimisés pour tous les appareils.",
+        "sec1_bottom_h3_3" : "Conceptions et design de logos",
+        "sec1_bottom_p_3" : "Un logo est la pierre angulaire de votre identité de marque.",
+        "sec1_bottom_h3_4" : "Création d'affiches événementielles",
+        "sec1_bottom_p_4" : "Je conçois des affiches d’événements visuellement frappantes qui captent l’attention et communiquent l’essence de votre événement.",
+        "sec1_bottom_h3_5" : "Design Ui / UX",
+        "sec1_bottom_p_5" : "Une excellente expérience utilisateur est la clé du succès de tout produit numérique."
+    },
+
+    {
+        "sec2_h2" : "1. Développement d'applications Web et de bureau",
+        "sec2_p1" : "Que vous ayez besoin d'une application Web puissante ou d'une solution de bureau transparente, je propose des services de développement de bout en bout adaptés à vos besoins spécifiques. Je me spécialise dans la création d'applications robustes, évolutives et conviviales qui améliorent la productivité et produisent de vrais résultats.",
+        "sec2_h3_2" : "Ce que j'offre :",
+        "sec2_p2" : "Applications Web personnalisées utilisant les dernières technologies <br> Développement d'applications de bureau pour Windows, macOS et Linux <br> Intégration d'API et gestion de base de données <br> Support et maintenance continus"
+    },
+
+    {
+        "sec3_h2" : "2. Création de site Web",
+        "sec3_p1" : "De la conception au déploiement, je crée des sites Web visuellement époustouflants, réactifs et optimisés pour tous les appareils. Mon approche de la création de sites Web combine esthétique et fonctionnalité, garantissant que votre site est non seulement superbe, mais offre également une expérience utilisateur exceptionnelle.",
+        "sec3_h3_2" : "Ce que j'offre :",
+        "sec3_p2" : "Conception et développement de sites Web entièrement réactifs <br> Optimisation SEO pour une meilleure visibilité <br> Intégration avec des plateformes CMS comme WordPress ou des solutions CMS personnalisées <br> Capacités de commerce électronique pour les boutiques en ligne"
+    },
+
+    {
+        "sec4_h2" : "3. Conceptions et design de logos",
+        "sec4_p1" : "Un logo est la pierre angulaire de votre identité de marque. Je crée des logos qui sont non seulement visuellement attrayants, mais qui incarnent également l'essence de votre marque. Chaque conception est adaptée aux valeurs spécifiques de votre marque et à votre public cible, garantissant un résultat unique et mémorable.",
+        "sec4_h3_2" : "Ce que j'offre :",
+        "sec4_p2" : "Développement et esquisse de concepts <br> Conceptions de logos évolutives et de haute qualité <br> Plusieurs concepts de conception au choix <br> Directives de marque et instructions d'utilisation"
+    },
+
+    {
+        "sec5_h2" : "4. Création d'affiches d'événements",
+        "sec5_p1" : "Je conçois des affiches événementielles visuellement percutantes qui captent l'attention et communiquent l'essence de votre événement. Des concerts et festivals aux événements d'entreprise et aux collectes de fonds, mes affiches sont conçues pour avoir un impact et stimuler la participation.",
+        "sec5_h3_2" : "Ce que j'offre :",
+        "sec5_p2" : "Affiches personnalisées pour tout type d'événement <br> Typographie audacieuse et combinaisons de couleurs adaptées au thème de votre événement <br> Formats imprimés et numériques prêts à être distribués <br> Délais d'exécution rapides pour les besoins de dernière minute"
+    },
+
+    {
+        "sec6_h2" : "5. Design UI/UX",
+        "sec6_p1" : "Une expérience utilisateur exceptionnelle est la clé du succès de tout produit numérique. Je crée des conceptions UI/UX intuitives et attrayantes qui priorisent les besoins des utilisateurs et simplifient les interactions. Mes conceptions s'appuient sur la recherche et les meilleures pratiques pour améliorer la convivialité et accroître la satisfaction des utilisateurs.",
+        "sec6_h3_2" : "Ce que j'offre :",
+        "sec6_p2" : "Recherche utilisateur et développement de persona <br> Wireframing et prototypage <br> Conception visuelle axée sur l'accessibilité et l'engagement <br> Tests d'utilisabilité et améliorations itératives"
+    },
+
+    {
+        "sec7_h1" : "Processus créatif",
+        "sec7_p_span" : "Bienvenue dans mon univers créatif",
+        "sec7_p" : "<span id=\"sec7_p_span\">Bienvenue dans mon univers créatif</span> Chaque projet que j'entreprends est un voyage du concept à la réalité, conçu avec un soin méticuleux et une compréhension approfondie de vos besoins. Mon processus allie créativité, expertise technique et engagement à fournir des résultats visuellement époustouflants et fonctionnels sur plusieurs supports, qu'il s'agisse d'un site Web, d'un logo ou d'une application.",
+    
+        "data_p1_span" : "1. Découverte et recherche",
+        "data_p1" : "<span id=\"data_p1_span\">1. Découverte et recherche</span> Chaque projet commence par une phase d'exploration. Je crois que la base d'un bon design réside dans la compréhension. Je prends le temps d'écouter et d'en savoir plus sur votre vision, votre marque et vos objectifs. <br>Consultation client : nous approfondissons la compréhension de votre marque, de votre public cible et du message que vous souhaitez transmettre. <br>Étude de marché : j'analyse les tendances, les concurrents et le secteur pour garantir que votre conception se démarque. <br>Moodboarding : ici, nous rassemblons des références visuelles, des schémas de couleurs et des inspirations stylistiques pour donner le ton.",
+        "data_p2_span" : "2. Développement de concept",
+        "data_p2" : "<span id=\"data_p2_span\">2. Développement de concept</span> Cette phase consiste à transformer la recherche en idées concrètes. Je laisse la créativité prendre le devant de la scène. <br>Esquisse et wireframes : les concepts initiaux sont esquissés ou mis en forme pour décrire la structure et le flux. C'est là que les bases de votre conception sont posées. <br>Rédaction de plusieurs directions : je vous présente plusieurs directions de conception parmi lesquelles choisir, chacune adaptée à différents aspects de l'identité de votre marque. <br>Services couverts : <br>Wireframes de conception Web <br>Esquisses de conception d'applications <br>Concepts initiaux d'affiches et de logos",
+        "data_p3_span" : "3. Conception et raffinement",
+        "data_p3" : "<span id=\"data_p3_span\">3. Conception et raffinement</span> Avec le concept choisi en main, nous affinons et peaufinons le design. C'est là que les idées prennent vie avec un design haute fidélité. <br>Maquettes détaillées : j'utilise des outils de pointe comme Figma et Adobe XD pour créer des prototypes interactifs et visuellement riches pour les sites Web et les applications. <br>Couleur et typographie : je m'assure que les combinaisons de couleurs et la typographie parfaites sont sélectionnées pour améliorer l'identité de la marque et l'expérience utilisateur. <br>Boucle de rétroaction : je collabore étroitement avec vous, recueillant des commentaires à chaque étape pour m'assurer que la conception correspond à vos attentes et à votre vision. <br>Services couverts : <br>Conception Web et d'applications haute fidélité <br>Concepts complets de conception d'affiches et de logos <br>Directives de marque et d'identité visuelle",
+        "data_p4_span" : "4. Développement et mise en œuvre",
+        "data_p4" : "<span id=\"data_p4_span\">4. Développement et mise en œuvre</span> Une fois la conception approuvée, je passe au développement, en assurant l'exécution transparente du concept. <br>Développement front-end : pour les projets Web et d'applications, je code des conceptions réactives et parfaites au pixel près en utilisant HTML, CSS et JavaScript, garantissant des performances optimales sur tous les appareils. <br>Finalisation de la conception graphique : pour les affiches, les logos et les supports imprimés, je prépare des fichiers haute résolution et gère toutes les configurations de prépresse nécessaires à l'impression. <br>Améliorations itératives : je teste et peaufine en permanence jusqu'à ce que tout fonctionne parfaitement, à la fois visuellement et fonctionnellement.",
+        "data_p5_span" : "5. Lancement et livraison",
+        "data_p5" : "<span id=\"data_p5_span\">5. Lancement et livraison</span> Après tout ce dur labeur, il est temps que votre projet brille. <br>Lancement de site Web et d'application : j'assure un lancement en douceur de votre site ou de votre application, en gérant tous les détails techniques, de la configuration du domaine au support après le lancement. <br>Livrables finaux : pour les projets de conception graphique, je vous fournis tous les formats de fichiers et ressources nécessaires, garantissant que votre logo, votre affiche ou votre matériel de marque sont prêts pour n'importe quelle plateforme. <br>Support continu : mon travail ne s'arrête pas au lancement. J'assure une maintenance continue, des mises à jour et tous les ajustements nécessaires pour assurer un succès à long terme.",
+        "data_p6_span" : "6. Croissance et évolution",
+        "data_p6" : "<span id=\"data_p6_span\">6. Croissance et évolution</span> Un bon design n'est jamais statique. À mesure que votre marque évolue, vos besoins en matière de design évoluent également. J'offre un soutien et des mises à jour continus pour garantir que votre projet reste pertinent et continue d'impressionner. <br>Prévoyance : votre site Web, votre application ou vos ressources de conception sont conçus dans un souci d'évolutivité, ce qui rend les itérations futures fluides et efficaces. <br>Analyses et informations : pour les projets numériques, je fournis des informations sur l'interaction des utilisateurs, vous aidant à optimiser l'engagement et les performances.",
+        
+        "sec7_p_last" : "En suivant ce processus soigneusement élaboré, je transforme les idées en designs percutants et en produits fonctionnels qui non seulement sont superbes mais offrent de vrais résultats."
+    }
+]
